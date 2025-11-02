@@ -1,0 +1,2 @@
+- https://www.vmware.com/topics/server-virtualization
+- https://www.vmware.com/topics/virtual-machine
