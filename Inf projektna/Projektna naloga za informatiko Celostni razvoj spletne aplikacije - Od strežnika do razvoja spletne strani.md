@@ -19,4 +19,8 @@ Včasih je bilo običajno, da na 1 fizičnem računalniku deluje samo 1 operacij
 Večino časa s takšno uporabo strojne opreme ne izkoristimo 100% procesorskega časa in imamo manj učinkovit sistem. Prav tako bi rabili več fizičnih naprav, če bi želeli ustvariti več strežnikov (npr. bazo, web strežnik...) To pomeni, da kljub temu, da bi 1 računalnik mogoče lahko imel dovolj obdelovalne moči, za upravljanje obeh strežnikov, moramo imeti 2 fizična računalnika. To pomeni manjša učinkovitost, več porabe elektrike, vzdrževanja ...To težavo nam sedaj reši tehnologija virtualizacije, ki omogoča kreiranje večjega števila virtualnih strežnikov na enem fizičnem. Dodatno nam virtualizacija poenostavi vzdrževanje,saj nam omogoča izvajanje periodičnih varnostnih kopij in olajša nadzor nad strežniki samimi, ker imamo boljši pregled nad uporabo resourcov in njihovo prilagajanje (tako procesorskega časa, diskovnega prostora, mrežnih vmesnikov kot delovnega pomnilnika), za kar bi sicer potrebovali posebna orodja oziroma celo menjavo strojne opreme v strežniku.
 
 ##### 2.2 Kaj je virtualizacija in kako delujejo VM-ji
+	- definicija virtualnega stroja
+	- virtualna strojna oprema vs. realna strojna oprema
+	- koncept izolacije
+
 Virtualizacija je proces razdelitve enega fizičnega strežnika na več ločenih virtualnih strežnikov (virtualnih strojev ali VM) s pomočjo specializirane programske opreme, imenovane hipervizor.
