@@ -1,0 +1,1 @@
+Reflektivna zavest: Sposobnost duha, da opazuje lastna stanja.
