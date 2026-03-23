@@ -39,9 +39,25 @@ V najširšem kontekstu vidimo razcep med empirizmom in racionalizmom v vprašan
 
 Racionalisti večinoma trdijo, da obstajajo načini za pridobitev in pojmovanje idej in konceptov, ki so neodvisni od naših čutnih izkušenj. To, da je nekdo racionalist, pa ne pomeni, da nujno trdi, da mora biti pridobivanje znanja neodvisno od kakršnih koli čutnih izkustev.  V svojem bistvu se kartezianski cogito opira na našo reflektivno, intuitivno zavest o obstoju trenutnega mišljenja. Ponavadi racionalisti razvijejo svoj pogled na tem področju v dveh korakih. Najprej trdijo, da obstajajo primeri, kjer vsebina našega znanja presega informacije, ki jih lahko zagotovi čutna izkušnja. Nato oblikujejo razlage o tem, kako razum v taki ali drugačni obliki zagotavlja te dodatne informacije o zunanjem svetu.
 
-Empiristi na drugi strani predstavijo alternativno razmišljanje. Razvijejo razlage o tem kako izkušnja sama po sebi (čutna, refleksivna ali kombinacija obeh) vir informacij, katere racionalisti označujejo za prirojene. Medtem ko empiristi kritizirajo racionalistične razlage, po katerih je razum glavni vir pojmov ali znanja, pokažejo, da lahko refleksivno razumevanje pogosto zapolni manjkajoče povezave. (Znano je, da je John Locke menil, da je naša splošna ideja substance sestavljena ideja, ki vključuje elemente, izvirajoče tako iz zaznavanja kot iz refleksije, medtem ko jo Descartes predstavi kot realno, jasno določeno ontološko kategorijo, ki jo lahko spoznamo z razumom)
+Empiristi na drugi strani predstavijo alternativno razmišljanje. Razvijejo razlage o tem kako izkušnja sama po sebi (čutna, refleksivna ali kombinacija obeh) predstavlja vir informacij, katere racionalisti označujejo za prirojene. Tako empiristi zavračajo racionalistično teorijo prirojenih idej, ki predstavlja enega izmed temeljev, ki zagotavljajo koherentnost racionalistične filozofije. Medtem ko empiristi kritizirajo racionalistične razlage, po katerih je razum glavni vir pojmov ali znanja, pokažejo, da lahko refleksivno razumevanje pogosto zapolni manjkajoče povezave. (Znano je, da je John Locke menil, da je naša splošna ideja substance sestavljena ideja, ki vključuje elemente, izvirajoče tako iz zaznavanja kot iz refleksije, medtem ko jo Descartes predstavi kot realno, jasno določeno ontološko kategorijo, ki jo lahko spoznamo z razumom)
+
+Spor med racionalizmom in empirizmom je postavljen predvsem v okviru epistemologije, ki se ukvarja s proučevanjem narave, viri ter mejami znanja. Znanje samo po sebi lahko delimo v 3 glavne kategorije, ki so znanje o zunanjem svetu, znanje o notranjem svetu (introspekcija) in znanje moralnih/estetskih vrednot. Ključna vprašanja v epistemologiji vključujejo naslednja : Kakšna je narava predikatnega znanja, torej znanja, da je določena trditev o svetu, o nas samih, o morali ali o lepoti resnična? Kako lahko pridobimo znanje? Kje so meje našega znanja?
+
+Glavno nestrinjanje empiristov in racionalistov izhaja iz 2. vprašanja v zvezi z viri naših konceptov in znanja, v nekaterih primerih pa se nestrinjanje glede odgovora na to vprašanje kaže v nasprotujočih vidikih glede drugih vprašanj; med drugim tudi o mejah našega znanja
+
+Obstajajo tri glavne teze, ki se običajno štejejo za pomembne pri razmejevanju med racionalizmom in empirizmom *Čeprav se je prva teza tradicionalno obravnavala kot tista, ki razlikuje med racionalizmom in empirizmom, se strokovnjaki danes večinoma strinjajo, da se večina racionalistov in empiristov drži tako imenovane teze o intuiciji in dedukciji, ki obravnava načine, na katere pridobimo utemeljitev za verjetje v trditve na določenem področju.*
+
+Teza o intuiciji in dedukciji: Nekatere trditve znotraj lahko spoznamo zgolj z intuicijo; druge pa lahko spoznamo tako, da jih izpeljemo iz trditev, ki smo jih spoznali z intuicijo. Intuicija je oblika neposrednega, takojšnjega vpogleda. Večina racionalistov in empiristov jo primerja z (nekakšno notranjo) percepcijo. Ko intelektualno dojamemo trditev, jo preprosto »vidimo« kot resnično na tak način, da v njej oblikujemo resnično, utemeljeno prepričanje. Dedukcija je proces, v katerem iz intuitivnih predpostavk izpeljemo zaključke prek veljavnih argumentov, v katerih mora biti zaključek resničen, če so predpostavke resnične. Intuitivno na primer pridemo do tega, da je število tri praštevilo in da je večje od dve. Iz tega znanja nato sklepamo, da obstaja praštevilo, večje od dve. Intuicija in dedukcija nam tako zagotavljata znanje, ki je neodvisno od izkušenj. Ta vrsta znanja se od Kanta naprej običajno imenuje »a priori«. Skupna točka veliko racionalistov in empiristov je to, da matematiko mogoče spoznati z intuicijo in dedukcijo. Nekateri (večinoma racionalisti) kot so Descartes v to kategorijo vključujejo tudi metafizične trditve, kot so, da Bog obstaja, da imamo prosto voljo in da sta um in telo ločeni substanci, med tem ko Locke in veliko drugih empiristov do takih trditev zavzemajo bolj zadržano stališče. 
+
+Teza o prirojenem znanju: Znanje o nekaterih resnicah na določenem področju imamo kot del naše narave. Ta trdi obstoj znanja, katerega vir je naša lastna narava. To znanje nam je prirojeno in njegova utemeljenost se ne zanaša na to, da bi do takšnega znanja prišli skozi naše izkušnje oziroma intuicijo ali dedukcijo, ampak je preprosto del naše narave. Descartes utemeljuje resničnost takšnega znanja z njegovim kriterijem za resnico izpeljanim iz cogita, ki določa vse jasne in razločne ideje za resnične. Za resnične na podlagi tega označi tudi vse prirojene ideje, ki vključujejo idejo boga, idejo misleče in razsežne stvari ter matematične resnice. Izkušnje lahko sprožijo proces s katerim to znanje pridobimo v zavest, a te izkušnje nam ne prinesejo  tega znanja, ki je na nek način že ves čas bilo z nami. Nekateri racionalisti zagovarjajo, da smo to znanje dobili iz nekega predhodnega obstoja (Platon), nekateri pravijo, da nam je to znanje bog "vgradil" ob stvarjenju (Descartes), spet drugi pa zagovarjajo, da je preprosto del naše narave zaradi naravne selekcije, kar je bolj moderna darvinistična razlaga.
+
+Teza o prirojenih pojmih: Nekateri pojmi, ki jih uporabljamo, so del naše racionalne narave. Ta teza zagovarja to, da nekateri od naših konceptov niso pridobljeni iz izkušenj, temveč so del naše racionalne narave v smislu, da čeprav lahko čutne izkušnje sprožijo proces, s katerim se ti pojmi prinesejo v zavest, izkušnje ne zagotavljajo samih pojmov niti ne določajo informacij, ki jih ti vsebujejo
+
+**Locke - o matematiki: intuicija, dedukcija, ampak iz izkušenj**
+**Descartes - o matematiki: intuicija, dedukcija + prirojene ideje**
 
 
+ena glavnih stvari, ki usklajuje njihovo teorijo
 
 
 **Racionalizem**
@@ -76,3 +92,12 @@ Empiristi tudi menijo, da razumevanje **vzroka in posledice** nastane skozi pona
 Med najpomembnejše empiristične filozofe sodijo **John Locke, George Berkeley in David Hume**, ki so vsak na svoj način razvijali idejo, da je izkušnja temelj spoznanja.
 
 Tudi empirizem je kasneje komentiral **Immanuel Kant**. Po njegovem mnenju empiristični pristop pogosto temelji na **indukciji**, kar pomeni posploševanje iz preteklih izkušenj. Če se je nekaj do zdaj vedno zgodilo na določen način, sklepamo, da bo tako tudi v prihodnje. Takšna oblika sklepanja pa po Kantu nikoli ne daje popolne logične nujnosti, temveč le verjetnost ali pričakovanje.
+
+
+
+
+##### Locke
+Ideje v Lockovi filozofiji igrajo zelo pomembno vlogo. Locke trdi, da vse kar se dogaja ali obstaja v mislih je ali pa vključuje idejo in vse človeško znanje ze začne in gradi z idejami. Beseda "ideja" se v njegovem delu Razprava o človeškem razumu pojavi pogosteje kot katerikoli drug samostalnik. 
+
+John Sergeant je bil en prvih, ki je izpostavil mnogoznačnost besede "ideja" pri Locku, kar se je tudi prijelo kot ena osrednjih tem njegovih kritik. 
+John Sergeant Mnogoznačnost besede "ideja" 
