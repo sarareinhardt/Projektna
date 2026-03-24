@@ -75,7 +75,7 @@ Podobno velja za logične zakonitosti. Če velja, da **A = B in B = C, potem mor
 
 Po racionalističnem razumevanju znanja lahko do pomembnih resnic pridemo **z natančnim in sistematičnim razmišljanjem**, tudi brez neposrednega opazovanja sveta. Ta pristop je značilen za mnoge klasične racionalistične filozofe, kot so René Descartes, Baruch Spinoza in Gottfried Wilhelm Leibniz.
 
-Kasneje je **Immanuel Kant** podal pomemben komentar na racionalizem. Po njegovem mnenju lahko določene oblike spoznanja nastanejo skozi **logično nujnost**: z analizo pojmov in logičnimi povezavami lahko pridemo do zaključka, da mora nekaj veljati nujno in ne more biti drugače. Takšno spoznanje je po Kantu bolj strogo in nujno kot empiristični pristop, ki pogosto temelji na posploševanju iz izkušenj.
+Kasneje je **Immanuel Kant** podal pomemben komentar na racionalizem. Po njegovem mnenju lahko določene oblike spoznanja nastanejo skozi **logično nujnost**: z analizo pojmov in logičnimi povezavami lahko pridemo do zaključka, da mora nekaj veljati nujno in ne more biti drugače. Takšno spoznanje je po Kantu bolj strogo in nujno kot empiristični pristop, ki pogosto temelji na posploševanju iz izkušenj=indukcija.
 
 ---
 
@@ -103,3 +103,11 @@ Ideje v Lockovi filozofiji igrajo zelo pomembno vlogo. Locke trdi, da vse kar se
 
 John Sergeant je bil en prvih, ki je izpostavil mnogoznačnost besede "ideja" pri Locku, kar se je tudi prijelo kot ena osrednjih tem njegovih kritik. 
 John Sergeant Mnogoznačnost besede "ideja" 
+
+
+
+
+
+
+
+ledice na pwm pinih nastavmo na vrednost od 0 do 255, ker se ta shranjuje v  8b (256) spremenljivko 
