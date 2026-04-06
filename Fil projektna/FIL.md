@@ -1,0 +1,6 @@
+[[Primerjava Descartesovega in Lockovega pojmovanja idej]]
+[[2. pola esej - projekt]]
+[[Terminologija]]
+[[Kritike, ki jih bi blo fajn nekam dat pa še ne vem kam]]
+[[J locke theory of ideas]]
+[[Fil projektna/Viri|Viri]]

@@ -107,13 +107,8 @@ Tudi empirizem je kasneje komentiral **Immanuel Kant**. Po njegovem mnenju empir
 ##### Locke
 Ideje v Lockovi filozofiji igrajo zelo pomembno vlogo. Locke trdi, da vse kar se dogaja ali obstaja v mislih je ali pa vključuje idejo in vse človeško znanje ze začne in gradi z idejami. Beseda "ideja" se v njegovem delu Razprava o človeškem razumu pojavi pogosteje kot katerikoli drug samostalnik. 
 
-John Sergeant je bil en prvih, ki je izpostavil mnogoznačnost besede "ideja" pri Locku, kar se je tudi prijelo kot ena osrednjih tem njegovih kritik. 
-John Sergeant Mnogoznačnost besede "ideja" 
 
 
 
 
 
-
-
-ledice na pwm pinih nastavmo na vrednost od 0 do 255, ker se ta shranjuje v  8b (256) spremenljivko 
