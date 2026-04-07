@@ -1,4 +1,4 @@
-2
+
 ```toc
 Uvod
 Teorija virtualizacije

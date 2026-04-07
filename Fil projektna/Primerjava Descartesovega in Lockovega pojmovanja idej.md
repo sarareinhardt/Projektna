@@ -1,3 +1,5 @@
+```toc
+```
 Uvod o obeh
 Racionalizem VS. Empirizem
 Descartes:
@@ -29,11 +31,11 @@ Locke:
 Descartes: En glavnih predstavnikov racionalizma, vpliv tudi na znanost semizdi, ludje imajo večjo željo priti do resnic
 
 
-##### Uvod
+# Uvod
 Rene Descartes in John Locke sta med najbolj znanimi filozofi zahodnega sveta s precej polarnimi pogledi na filozofijo. 
 
 
-##### Racionalizem in empirizem 
+# Racionalizem in empirizem 
 
 V najširšem kontekstu vidimo razcep med empirizmom in racionalizmom v vprašanju v kolikšni meri smo odvisni od naših izkušenj pri naših prizadevanjih za pridobivanje znanja o zunanjem svetu. Običajno razlikujemo med dvema vrstama izkušenj: čutno izkušnjo, ki vključuje naših pet čutov, usmerjenih v zunanji svet, in refleksivno izkušnjo, ki vključuje zavedanje in obdelavo naših miselnih procesov. Razlika med njima se izraža predvsem v tem, da so naše čutne izkušnje namenjene spoznavanju zunanjega sveta, naše miselne izkušnje pa nam omogočajo spoznavanje naših miselnih procesov odgovornih za pridobivanje znanja o našem umu.
 
@@ -105,14 +107,22 @@ Tudi empirizem je kasneje komentiral **Immanuel Kant**. Po njegovem mnenju empir
 
 
 # Locke
-Ideje v Lockovi filozofiji igrajo zelo pomembno vlogo. Locke trdi, da vse kar se dogaja ali obstaja v mislih je ali pa vključuje idejo in vse človeško znanje ze začne in gradi z idejami. Beseda "ideja" se v njegovem delu Razprava o človeškem razumu pojavi pogosteje kot katerikoli drug samostalnik. 
+Ideje v Lockovi filozofiji igrajo zelo pomembno vlogo. Locke trdi, da vse kar se dogaja ali obstaja v mislih je ali pa vključuje idejo in vse človeško znanje ze začne in gradi z idejami. Beseda "ideja" se v njegovem delu Esej o človeškem razumu pojavi pogosteje kot katerikoli drug samostalnik. 
+
+Osrednja teza Locka kot predstavnika empirizma je, da je um ob rojstvu kot nepopisan list papirja (tabula rasa). Pravi, da je brez prirojenih idej, in da se vsa spoznavna vsebina začne pri izkustvu.
+
+V Eseju o človeškem razumu Locke idejo opredeli kot tisto, kar je neposredni predmet zaznave, mišljenja ali umevanja. Locke tako predstavi ideje kot temeljni gradnik epistemologije. V tem okviru pravi, da ideje pridobivamo na 2 načina, ki ju imenuje čutnost in refleksija. Čutnost predstavljajo informacije, ki jih dobimo skozi čutne zaznave (vidimo barve, slišimo zvok, čutimo bolečino). Refleksija opisuje subjekt, ki opazuje lastne miselne procese, kot so mišljenje, dvom, odločanje in spominjanje. Pri Locku je refleksivno izkustvo predstavljeno podobno kot izkustvo s  čuti,  samo da ni usmerjeno navzven, ampak navznoter. Namenjeno je opazovanju lastnega uma pri delu. Primer je lahko sprejemanje odločitve. Npr. odločam se ali se grem učiti filozofijo ali grem vaditi klavir Pri tem torej ne zaznavam zunanjega sveta, ampak zaznavam lastni proces odločanja. Dober primer je tudi spomin. Dogodek, ki se ga spominjam je lahko prišel iz čutov, zavedanje da se spominjam pa je refleksija, torej ideja spomina pride iz refleksije. Locke nato pove, da te informacije pridobljene s čutnostjo in refleksijo um nato obdeluje na 2 različna načina. To sta sestavljanje, ki dela kompozicijo, primerjavo in abstrakcijo, ter sodba, ki pa je odgovorna za presojo resničnosti/verjetnosti.
+
 
 ##### Duh, mišljenje in zaznavanje
-
-Osrednja teza Locka kot predstavnika empirizma je, da je um ob rojstvu kot nepopisan list papirja (tabula rasa). Pravi, da je brez prirojenih idej, in da se vsa spoznavna vsebina začne pri izkustvu
-
 Naša prva - na prvi pogled preprosta ter samoumevna naloga je razjasniti, kaj je Lockova definicija ideje. To prvič pojasni že zgodaj v svoji Razpravi, kjer idejo predstavi kot slednjo; »izraz, ki se mi zdi najprimernejši, da stoji za vsem, kar je predmet razumevanja, kadar človek misli, sem ga uporabljal, da izrazim vse, kar pomeni predstava/čutna podoba *(izhajajoča iz aristotelske tradicije, pomeni slika v umu pogosto iz čutov)*, pojmi *(kot bolj abstraktne ideje npr. pravica)*, miselna forma/oblika *(izhaja iz srednjeveške filozofije - pomeni način kako je stvar prisotna v duhu)*, ali karkoli že, s čimer se duh more ukvarjati v mišljenju «. 
-Pozneje v drugem odlomku nesamozavestno ponovno poskusi definirati besedo  in pravi: »kar koli duh zaznava v sebi ali je neposredni predmet zaznavanja, mišljenja ali razumevanja, to imenujem ideja« Snežna kepa namreč, lahko na primer »v nas povzroči ideje belega, hladnega in okroglega«, katere  »kolikor so občutki ali zaznave v našem razumu, imenujem ideje« 
+Pozneje v drugem odlomku nesamozavestno ponovno poskusi definirati besedo  in pravi: »kar koli duh zaznava v sebi ali je neposredni predmet zaznavanja, mišljenja ali razumevanja, to imenujem ideja« Snežna kepa namreč, lahko na primer »v nas povzroči ideje belega, hladnega in okroglega«, katere  »kolikor so občutki ali zaznave v našem razumu, imenujem ideje«
+Locke sicer včasih govori, kot da so ideje »zaznave« ali »občutki«, vendar je pri njem izraz "zaznava" sistematično dvoumen (lahko pomeni dejanje zaznavanja ali zaznano vsebino). Ključna Lockova definicija ideje je objektna: ideja je neposredni predmet zaznave/mišljenja, ne pa sama aktivnost zaznavanja. To potrdi stavek: vprašati, kdaj ima človek prve ideje, pomeni vprašati, kdaj začne zaznavati. »Imeti ideje« in »zaznavati« sta v tem smislu ekvivalentna, vendar ravno prek fraze imeti ideje Locke nakaže razliko med dejanjem in predmetom (idejo). 
 John Sergeant kritizira to mnogoznačnost Lockove opredelitve besede "ideja". Trdil je tudi, da v enem od pomenov, ki jih Locke pripisuje tej besedi pravzaprav ne stoji za ničemer, temveč je zgolj  »prazna domislica«. To se prime kot stalnica kritik Lockove filozofije.
 Na kritike worcestrskega Škofa in njegovega sodobnika, ki mu očita, da je njegova raba besede  »ideja« spodbudila zlonamerne ljudi  k promoviranju skepticizma in brezverstva, ter spodkopavanju skrivnosti njihove vere. V odgovoru Stillingfleetu Locke ponovno opredeli pomen svojega izraza: »tisto, kar označujejo ideje, ni nič drugega kakor neposredni predmeti našega duha v mišljenju«
-Locke tako predstavi ideje kot temeljni gradnik epistemologije. **a**  V tem okviru pravi, da ideje pridobivamo na 2 načina, ki ju imenuje čutnost in refleksija. Čutnost predstavljajo informacije, ki jih dobimo skozi čutne zaznave (vidimo barve, slišimo zvok, čutimo bolečino). Refleksija opisuje subjekt, ki opazuje lastne miselne procese, kot so mišljenje, dvom, odločanje in spominjanje. Pri Locku je refleksivno izkustvo predstavljeno podobno kot izkustvo s  čuti,  samo da ni usmerjeno navzven, ampak navznoter. Namenjeno je opazovanju lastnega uma pri delu. Primer je lahko sprejemanje odločitve. Npr. odločam se ali se grem učiti filozofijo ali grem vaditi klavir Pri tem torej ne zaznavam zunanjega sveta, ampak zaznavam lastni proces odločanja. Dober primer je tudi spomin. Dogodek, ki se ga spominjam je lahko prišel iz čutov, zavedanje da se spominjam pa je refleksija, torej ideja spomina pride iz refleksije. Locke nato pove, da te informacije pridobljene s čutnostjo in refleksijo um nato obdeluje na 2 različna načina. To sta sestavljanje, ki dela kompozicijo, primerjavo in abstrakcijo, ter sodba ki pa služi presoji resničnosti/verjetnosti
+
+##### Ideje kot predmeti
+Ko Locke idejo opredeli kot »neposredni predmet zaznave/mišljenja«, s tem vpelje usmerjenost duševnih dejanj: misliti pomeni misliti nekaj, zaznavati pomeni zaznavati nekaj. »Predmet« je pri Locku ideja, s katero se duh ukvarja, ko misli ali zaznava, saj je vsaka misel intencionalno usmerjena na nek predmet. V tem smislu je identiteta duševnega dejanja bistveno določena s tem, čemu je usmerjeno: zaznava tega in zaznava onega ne moreta biti ista zaznava, če se razlikuje predmet, četudi je »nosilec« dejanja ista oseba.
+Locke zavzema stališče, ki je sprožilo znameniti spor: tudi kadar zaznavamo zunanji predmet (npr. drevo), je po Locku neposredni predmet zaznave vselej ideja. Zunanji predmet je, če je že, predmet zgolj v posrednem smislu. Ravno zato Locke v sporu s Stillingfleetom vztraja pri formulaciji »neposredni predmeti našega uma v mišljenju«. Ta teza ne meri nujno na zanikanje zunanjega sveta, temveč na opis, kako je zaznava strukturirana: kar je neposredno »v dosegu zavesti«, je vsebina/ideja.
+ Načina pridobivanja informacij -  čutnost in refleksija stojita torej pred načinoma procesiranja idej znotraj uma - sestavljanje in sodba. Po Locku to torej pomeni: najprej um prejme ideje (kot neposredne predmete), šele nato jih umevanje obdeluje z operacijami primerjanja, združevanja in abstrakcije ter na ravni sodb presoja, kaj iz njih sledi in kaj je res.
+##### Realna in intencionalna bit idej
