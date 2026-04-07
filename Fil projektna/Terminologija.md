@@ -11,3 +11,6 @@ Duh/Um/Misel/zavest (mind) - Locke govori o _mind_ kot o nosilcu idej, zaznav, m
 	- razum = procesor, ki računa
 (Razprava I.i.8: 47)
 Razprava o človeškem razumu, knjiga 1, poglavje 1, 8. odstavek: str. 47
+**metafizika** = Metaphysics is the branch of philosophy that examines the basic structure of reality. It is traditionally seen as the study of mind-independent features of the world, but some theorists view it as an inquiry into the conceptual framework of human understanding.
+**transcendentalno** = to kar zajema čutne zaznave
+**Ontologija** = filozofsko področje, ki se ukvarja z bivanjem, pogosto kategorizirana kot poddisciplina metafiziki, fokusira se na najbolj splošne lastnosti, resničnosti (resničnost in vsaka entiteta znotraj nje)

@@ -12,3 +12,4 @@ Spletni viri:
 https://plato.stanford.edu/entries/rationalism-empiricism/
 
 https://plato.stanford.edu/entries/descartes-ideas/
+https://www.wikiwand.com/sl/Ockhamova_britev
