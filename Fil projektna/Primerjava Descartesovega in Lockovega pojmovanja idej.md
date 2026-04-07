@@ -104,11 +104,15 @@ Tudi empirizem je kasneje komentiral **Immanuel Kant**. Po njegovem mnenju empir
 
 
 
-##### Locke
+# Locke
 Ideje v Lockovi filozofiji igrajo zelo pomembno vlogo. Locke trdi, da vse kar se dogaja ali obstaja v mislih je ali pa vključuje idejo in vse človeško znanje ze začne in gradi z idejami. Beseda "ideja" se v njegovem delu Razprava o človeškem razumu pojavi pogosteje kot katerikoli drug samostalnik. 
 
+##### Duh, mišljenje in zaznavanje
 
+Osrednja teza Locka kot predstavnika empirizma je, da je um ob rojstvu kot nepopisan list papirja (tabula rasa). Pravi, da je brez prirojenih idej, in da se vsa spoznavna vsebina začne pri izkustvu
 
-
-
-
+Naša prva - na prvi pogled preprosta ter samoumevna naloga je razjasniti, kaj je Lockova definicija ideje. To prvič pojasni že zgodaj v svoji Razpravi, kjer idejo predstavi kot slednjo; »izraz, ki se mi zdi najprimernejši, da stoji za vsem, kar je predmet razumevanja, kadar človek misli, sem ga uporabljal, da izrazim vse, kar pomeni predstava/čutna podoba *(izhajajoča iz aristotelske tradicije, pomeni slika v umu pogosto iz čutov)*, pojmi *(kot bolj abstraktne ideje npr. pravica)*, miselna forma/oblika *(izhaja iz srednjeveške filozofije - pomeni način kako je stvar prisotna v duhu)*, ali karkoli že, s čimer se duh more ukvarjati v mišljenju «. 
+Pozneje v drugem odlomku nesamozavestno ponovno poskusi definirati besedo  in pravi: »kar koli duh zaznava v sebi ali je neposredni predmet zaznavanja, mišljenja ali razumevanja, to imenujem ideja« Snežna kepa namreč, lahko na primer »v nas povzroči ideje belega, hladnega in okroglega«, katere  »kolikor so občutki ali zaznave v našem razumu, imenujem ideje« 
+John Sergeant kritizira to mnogoznačnost Lockove opredelitve besede "ideja". Trdil je tudi, da v enem od pomenov, ki jih Locke pripisuje tej besedi pravzaprav ne stoji za ničemer, temveč je zgolj  »prazna domislica«. To se prime kot stalnica kritik Lockove filozofije.
+Na kritike worcestrskega Škofa in njegovega sodobnika, ki mu očita, da je njegova raba besede  »ideja« spodbudila zlonamerne ljudi  k promoviranju skepticizma in brezverstva, ter spodkopavanju skrivnosti njihove vere. V odgovoru Stillingfleetu Locke ponovno opredeli pomen svojega izraza: »tisto, kar označujejo ideje, ni nič drugega kakor neposredni predmeti našega duha v mišljenju«
+Locke tako predstavi ideje kot temeljni gradnik epistemologije. **a**  V tem okviru pravi, da ideje pridobivamo na 2 načina, ki ju imenuje čutnost in refleksija. Čutnost predstavljajo informacije, ki jih dobimo skozi čutne zaznave (vidimo barve, slišimo zvok, čutimo bolečino). Refleksija opisuje subjekt, ki opazuje lastne miselne procese, kot so mišljenje, dvom, odločanje in spominjanje. Pri Locku je refleksivno izkustvo predstavljeno podobno kot izkustvo s  čuti,  samo da ni usmerjeno navzven, ampak navznoter. Namenjeno je opazovanju lastnega uma pri delu. Primer je lahko sprejemanje odločitve. Npr. odločam se ali se grem učiti filozofijo ali grem vaditi klavir Pri tem torej ne zaznavam zunanjega sveta, ampak zaznavam lastni proces odločanja. Dober primer je tudi spomin. Dogodek, ki se ga spominjam je lahko prišel iz čutov, zavedanje da se spominjam pa je refleksija, torej ideja spomina pride iz refleksije. Locke nato pove, da te informacije pridobljene s čutnostjo in refleksijo um nato obdeluje na 2 različna načina. To sta sestavljanje, ki dela kompozicijo, primerjavo in abstrakcijo, ter sodba ki pa služi presoji resničnosti/verjetnosti

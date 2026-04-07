@@ -9,3 +9,5 @@ Duh/Um/Misel/zavest (mind) - Locke govori o _mind_ kot o nosilcu idej, zaznav, m
 	- **razum (reason)** = funkcija znotraj duha, ki te ideje uporablja
 	- duh = računalnik
 	- razum = procesor, ki računa
+(Razprava I.i.8: 47)
+Razprava o človeškem razumu, knjiga 1, poglavje 1, 8. odstavek: str. 47

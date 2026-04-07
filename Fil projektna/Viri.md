@@ -10,3 +10,5 @@ Rene Descartes: Meditacije
 John Locke: Razprava o človeškem razumu (an essay concerning human understanding)
 Spletni viri: 
 https://plato.stanford.edu/entries/rationalism-empiricism/
+
+https://plato.stanford.edu/entries/descartes-ideas/
