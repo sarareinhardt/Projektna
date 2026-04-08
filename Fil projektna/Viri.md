@@ -8,6 +8,7 @@ Blackwell companions to Philosophy: A Companion to Descartes(https://coehuman.uo
 Rene Descartes: Meditacije z Ugovori in odgovori
 Rene Descartes: Meditacije
 John Locke: Razprava o človeškem razumu (an essay concerning human understanding)
+
 Spletni viri: 
 https://plato.stanford.edu/entries/rationalism-empiricism/
 

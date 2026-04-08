@@ -47,7 +47,7 @@ Spor med racionalizmom in empirizmom je postavljen predvsem v okviru epistemolog
 
 Glavno nestrinjanje empiristov in racionalistov izhaja iz 2. vprašanja v zvezi z viri naših konceptov in znanja, v nekaterih primerih pa se nestrinjanje glede odgovora na to vprašanje kaže v nasprotujočih vidikih glede drugih vprašanj; med drugim tudi o mejah našega znanja
 
-Obstajajo tri glavne teze, ki se običajno štejejo za pomembne pri razmejevanju med racionalizmom in empirizmom *Čeprav se je prva teza tradicionalno obravnavala kot tista, ki razlikuje med racionalizmom in empirizmom, se strokovnjaki danes večinoma strinjajo, da se večina racionalistov in empiristov drži tako imenovane teze o intuiciji in dedukciji, ki obravnava načine, na katere pridobimo utemeljitev za verjetje v trditve na določenem področju.*
+Obstajajo tri glavne teze, ki se običajno štejejo za pomembne pri razmejevanju med racionalizmom in empirizmom. Čeprav se je prva teza tradicionalno obravnavala kot tista, ki razlikuje med racionalizmom in empirizmom, se strokovnjaki danes večinoma strinjajo, da se večina racionalistov in empiristov drži tako imenovane teze o intuiciji in dedukciji, ki obravnava načine, na katere pridobimo utemeljitev za verjetje v trditve na določenem področju.
 
 Teza o intuiciji in dedukciji: Nekatere trditve znotraj lahko spoznamo zgolj z intuicijo; druge pa lahko spoznamo tako, da jih izpeljemo iz trditev, ki smo jih spoznali z intuicijo. Intuicija je oblika neposrednega, takojšnjega vpogleda. Večina racionalistov in empiristov jo primerja z (nekakšno notranjo) percepcijo. Ko intelektualno dojamemo trditev, jo preprosto »vidimo« kot resnično na tak način, da v njej oblikujemo resnično, utemeljeno prepričanje. Dedukcija je proces, v katerem iz intuitivnih predpostavk izpeljemo zaključke prek veljavnih argumentov, v katerih mora biti zaključek resničen, če so predpostavke resnične. Intuitivno na primer pridemo do tega, da je število tri praštevilo in da je večje od dve. Iz tega znanja nato sklepamo, da obstaja praštevilo, večje od dve. Intuicija in dedukcija nam tako zagotavljata znanje, ki je neodvisno od izkušenj. Ta vrsta znanja se od Kanta naprej običajno imenuje »a priori«. Skupna točka veliko racionalistov in empiristov je to, da matematiko mogoče spoznati z intuicijo in dedukcijo. Nekateri (večinoma racionalisti) kot so Descartes v to kategorijo vključujejo tudi metafizične trditve, kot so, da Bog obstaja, da imamo prosto voljo in da sta um in telo ločeni substanci, med tem ko Locke in veliko drugih empiristov do takih trditev zavzemajo bolj zadržano stališče. 
 
@@ -57,93 +57,64 @@ Teza o prirojenih pojmih: Nekateri pojmi, ki jih uporabljamo, so del naše racio
 
 Na prvi pogled se 2. in 3. teza zdita zelo podobni, vendar pa med njima obstaja razlika. Za razumevanje razlike je v prvi vrsti pomembno razumevanje razlike med pojmi in znanjem. Pojmi predstavljajo gradnike mišljenja, znanje pa so že oblikovane resnice. Teza o prirojenih pojmih tako pravi, da nekateri osnovni pojmi (kot so pojem Boga) niso pridobljeni iz empiričnih izkušenj in je manj ekstremna kot teorija o prirojenem znanju, ki zagovarja, da nekatere resnice že vemo še preden jih izpeljemo iz izkušenj. 
 
+##### Racionalizem
 
+Racionalizem je filozofska smer, ki poudarja razum kot temeljni vir znanja. Racionalisti zagovarjajo stališče, da lahko do določenih resnic pridemo neodvisno od čutnih izkušenj, zgolj z razmišljanjem, logiko in analizo pojmov. V tem smislu trdijo, da vsebina našega znanja v nekaterih primerih presega to, kar nam lahko posredujejo čuti, saj so ti lahko varljivi. Zaradi tega večje zaupanje namenjajo razumu, predvsem na področjih, kot so matematika in logika, kjer so resnice nujne in univerzalne. Na primer trditev 2 + 2 = 4 ali logični sklep, da če velja A = B in B = C, potem mora veljati tudi A = C, ne temeljita na izkušnji, temveč na strukturi razuma.
 
+Ena izmed ključnih značilnosti racionalizma je sprejemanje teze o prirojenih idejah oziroma prirojenih pojmih. To pomeni, da nekatere osnovne pojme ali strukture mišljenja že imamo v umu in jih ne pridobimo šele skozi izkušnje. Te ideje omogočajo, da sploh lahko razumemo svet in oblikujemo znanje. V tem okviru racionalisti pogosto zagovarjajo tudi stališče, da določenih vrst znanja sploh ne moremo pridobiti s čutnim izkustvom, temveč zgolj z razumom, ter da je znanje, pridobljeno z intuicijo in dedukcijo, bolj zanesljivo od tistega, ki temelji na izkušnji.
 
+##### Empirizem
 
-Lockov vs tradicionalni dualizem
+Empirizem na drugi strani zavrača obstoj prirojenega znanja in prirojenih pojmov ter trdi, da vse naše ideje izvirajo iz izkustva. Po tem pogledu je človekov um ob rojstvu podoben nepopisanemu listu papirja, tabula rasa, na katerega se skozi življenje zapisujejo izkušnje. Znanje tako ni le sproženo z izkušnjo, ampak iz nje tudi dejansko izvira. Razum v tem okviru ne ustvarja vsebine sam, temveč zgolj obdeluje in povezuje ideje, ki jih pridobimo prek čutov ali refleksije.
 
-**Locke - o matematiki: intuicija, dedukcija, ampak iz izkušenj**
-**Descartes - o matematiki: intuicija, dedukcija + prirojene ideje**
+Empiristi zato poudarjajo pomen opazovanja in izkustva kot temelja znanja. Primeri takšnega znanja so vsakdanje trditve, kot je da je ogenj vroč ali da je led hladen, pa tudi znanstvena spoznanja, ki temeljijo na eksperimentu. Razumevanje vzročnosti po tem pogledu nastane iz ponavljajočih se izkušenj, pri čemer iz opazovanja pravilnosti sklepamo na povezave med pojavi, kar vodi v sklepe, ki niso nujni, temveč verjetni. Takšno razumevanje razvije tudi David Hume, ki opozori, da vzročnosti ne zaznavamo neposredno, temveč jo zgolj predpostavljamo na podlagi navade.
 
-
-ena glavnih stvari, ki usklajuje njihovo teorijo
-
-
-**Racionalizem**
-Racionalizem je filozofska smer, ki poudarja **razum kot glavni vir in temelj človeškega znanja**. Po racionalističnem pogledu nekatere resnice niso odvisne od čutnih izkušenj, temveč jih lahko odkrijemo **zgolj z razmišljanjem, logiko in analizo pojmov**. Racionalisti menijo, da je razum zmožen priti do določenih temeljnih resnic neodvisno od opazovanja sveta.
-
-Osnovna ideja racionalizma je, da **nekatero znanje izhaja izključno iz razuma**, neodvisno od čutnih izkušenj. Po tem pogledu čuti niso vedno zanesljivi, saj nas lahko zavajajo. Zaradi tega racionalisti večje zaupanje namenjajo logičnemu sklepanju in matematičnim strukturam, ki veljajo univerzalno in nujno.
-
-Ena izmed ključnih trditev racionalizma je, da se ljudje rodijo z določenimi **prirojenimi idejami ali mentalnimi strukturami**. To pomeni, da nekatere osnovne pojme ali načine razmišljanja že imamo v umu in jih ne pridobimo šele skozi izkušnje. Te strukture omogočajo, da lahko razumemo svet in oblikujemo znanje.
-
-Racionalisti poudarjajo, da so **razum, logika in matematika najzanesljivejši načini za doseganje resnice**. Matematične resnice so dober primer znanja, ki ga lahko poznamo brez opazovanja sveta. Na primer trditev **2 + 2 = 4** velja nujno in univerzalno; njena resničnost ni odvisna od izkušenj, temveč od logične strukture matematike.
-
-Podobno velja za logične zakonitosti. Če velja, da **A = B in B = C, potem mora veljati tudi A = C**. Takšne resnice izhajajo iz same logične strukture pojmov in jih lahko razumemo zgolj z razmišljanjem. Racionalisti zato pogosto poudarjajo tudi **abstraktne pojme**, kot so popolnost, neskončnost ali snov, ki jih ni mogoče neposredno zaznati s čuti, a jih razum lahko miselno oblikuje.
-
-Po racionalističnem razumevanju znanja lahko do pomembnih resnic pridemo **z natančnim in sistematičnim razmišljanjem**, tudi brez neposrednega opazovanja sveta. Ta pristop je značilen za mnoge klasične racionalistične filozofe, kot so René Descartes, Baruch Spinoza in Gottfried Wilhelm Leibniz.
-
-Kasneje je **Immanuel Kant** podal pomemben komentar na racionalizem. Po njegovem mnenju lahko določene oblike spoznanja nastanejo skozi **logično nujnost**: z analizo pojmov in logičnimi povezavami lahko pridemo do zaključka, da mora nekaj veljati nujno in ne more biti drugače. Takšno spoznanje je po Kantu bolj strogo in nujno kot empiristični pristop, ki pogosto temelji na posploševanju iz izkušenj=indukcija.
-
----
-
-### Empirizem
-
-Empirizem je filozofska smer, ki poudarja **čutne izkušnje kot glavni vir vsega znanja**. Empiristi menijo, da človek na začetku nima prirojenih idej, temveč znanje pridobiva postopoma skozi stik s svetom. Vse, kar vemo, naj bi izhajalo iz tega, kar vidimo, slišimo, tipamo ali drugače zaznamo.
-
-Osnovna ideja empirizma je, da **vse znanje izhaja iz izkušenj**. Človekov um je ob rojstvu po tej teoriji podoben **nepopisanemu listu papirja (tabula rasa)**, na katerega se skozi življenje zapisujejo izkušnje. Ideje in pojmi se oblikujejo šele kot rezultat zaznavanja sveta.
-
-Empiristi zato zavračajo idejo prirojenih idej. Menijo, da se **vse naučimo skozi izkušnje in opazovanje**. Zaradi tega imata v empirističnem pristopu posebno vlogo **opazovanje in eksperimentiranje**, ki omogočata preverjanje in oblikovanje znanja.
-
-Tipični primeri znanja, ki jih poudarjajo empiristi, so predvsem **znanstvena spoznanja**, ki temeljijo na opazovanju in eksperimentih. Prav tako poudarjajo vsakdanje izkustvene resnice, na primer da je **ogenj vroč** ali da je **led hladen**, saj takšne trditve poznamo skozi neposredno izkušnjo.
-
-Empiristi tudi menijo, da razumevanje **vzroka in posledice** nastane skozi ponavljajoče se izkušnje. Ko opazimo, da se določeni dogodki vedno znova pojavljajo skupaj, začnemo sklepati, da obstaja med njimi vzročna povezava. Znanje tako nastaja postopoma skozi interakcijo s svetom in oblikovanje idej na podlagi teh izkušenj.
-
-Med najpomembnejše empiristične filozofe sodijo **John Locke, George Berkeley in David Hume**, ki so vsak na svoj način razvijali idejo, da je izkušnja temelj spoznanja.
-
-Tudi empirizem je kasneje komentiral **Immanuel Kant**. Po njegovem mnenju empiristični pristop pogosto temelji na **indukciji**, kar pomeni posploševanje iz preteklih izkušenj. Če se je nekaj do zdaj vedno zgodilo na določen način, sklepamo, da bo tako tudi v prihodnje. Takšna oblika sklepanja pa po Kantu nikoli ne daje popolne logične nujnosti, temveč le verjetnost ali pričakovanje.
+Kljub temu razdelitev med racionalizmom in empirizmom ni vedno povsem stroga, saj lahko isti filozof na različnih področjih zavzema različna stališča. Tako lahko nekdo zagovarja racionalizem na področju matematike, hkrati pa empirizem pri razlagi naravoslovnih pojavov. Spor med racionalizmom in empirizmom se najjasneje pokaže pri vprašanju, ali lahko znanje o zunanjem svetu temelji na razumu ali pa je nujno odvisno od izkustva, pri čemer racionalisti poudarjajo vlogo prirojenih struktur mišljenja, empiristi pa izkustvo kot edini vir vsebine našega znanja.
 
 
 # René Descartes
 
-- stopnje dvoma
-	- zlobni duh
-- solipsizem (Bog - izhod iz solipsizma in krožni argument)
-- kriterij za resničnost
-- Prirojene Narejene in Pridobljene ideje
-	- prirojene - jasne in razločne
-	- narejene - sfinga
-	- pridobljene - ideje, ki jih pridobim s čuti - čutim sneg in zdaj mam idejo snega
-- substanca, atribut, modus (podobno kot locke z enostavnimi in sestavljenimi idejami)
+René Descartes velja za enega izmed najpomembnejših predstavnikov racionalizma. Racionalisti zagovarjajo stališče, da lahko do določenih resnic pridemo neodvisno od čutnih izkušenj, zgolj z uporabo mišljenja. Descartes svojo filozofijo gradi točno na tem prepričanju, saj poskuša pokazati, da lahko s pomočjo razuma in jasnih ter razločnih idej dosežemo gotova in nedvomna spoznanja.
 
-Descartes z metodičnim dvomom poskuša priti do trdnega temelja spoznanja in uvede 3 stopnje dvoma
-1. stopnja - čuti so lahko varljivi pravi, da obstajajo primeri ko nas čuti varajo (npr sonce nam zgleda majhno zaradi razdalje ampak v resnici je ogromno ali pa to, da nam stolp od daleč lahko zgleda okrogel, v resnici pa je oglat) zato pravi, da na njih ne more temeljiti gotovih spoznanj, ampak, da bi bilo napačno čute popolnoma zavreči, saj bi v tem primeru bili podobni norcem, ki mislijo, da imajo stekleno bučo namesto glave
-2. budnost - sanje v drugi stopnji dvoma se Descartes sprašuje kako razlikovati med sanjami in budnostjo. To stopnjo dvoma razreši z vpeljavo matematičnih resnic, saj pravi, da te veljajo v sanjah in v budnosti (trikotnik bo imel tri stranice in vsota njegovih notranjih kotov bo 180 stopinj ne glede na to ali je buden ali sanja)
-3. zlobni duh  v 3. stopnji dvoma se sprašuje ali ga morda vara zlobni duh tudi pri stvareh, ki jih dojema za resnične in gotove (npr. matematične resnice)
-	I. Če ga zlobni duh vara, potem mora obstajati kot misleče bitje, saj je za varanje potreben nekdo, ki je varan. -> pridemo do nedvoumne resnice (cogito ergo sum - mislim torej sem) Ta resnica ne more biti napačna, ker je resnična že samo z dejanjem dvoma. - to je kartezijanski cogito. Ugotovi, da je Cogito - in s tem lastni obstoj edina stvar v katero je lahko prepričan in zaradi tega zapade v solipsizem. Kasneje v III. meditaciji se reši solipsizma z upeljavo boga, ki je neskončno in popolno bitje, in ugotovi, da ga bog o stvareh zunaj samo njegovega obstoja ne bi varal, saj bi to nasprotovalo božji popolnosti.
+##### Stopnje dvoma
 
-Iz Cogita neto Descartes izpelje kriterij za resnico. Z analizo ugotovi, da je ideja cogita jasna, torej o njej ne mora dvomiti in razločna, torej čista in ločena od drugih idej. Na podlagi tega se odloči, da so vse misli, ki so jasne in razločne tudi resnične in cogito je tako prvo Descartesovo gotovo spoznanje, ter samozavedanje.
+Descartes z metodičnim dvomom poskuša priti do trdnega temelja spoznanja in uvede tri stopnje dvoma. 
 
-IZVOR IDEJ:
-Descartes pravi, da pridobimo ideje iz 3 virov. Lahko so prirojene pridobljene ali pa narejene
-Prirojene ideje so te, ki jih že imamo v sebi. So tudi en glavnih razcepov med racionalizmom in empirizmom, ki zagovarja, da nimamo prirojenih idej, in da se vsa spoznavna vsebina začne pri izkustvu. Descartes pravi, da so te ideje jasne in razločne torej resnične. Vključujejo idejo misleče in razsežne stvari, idejo boga ter matematične in logične ideje. Empiristični kritiki pravijo, da bi po tej logiki stvari kot so matematične resnice morali poznati že dojenčki, vendar ni mišljeno, da nam je prirojeno to znanje ampak zmožnost dojemanja teh idej.
-Pridobljene ideje so te, ki jih pridobimo s čutnimi vtisi
-Narejene pa so te, ki jih naredimo iz prirojenih ter pridobljenih idej npr. znanstvena odkritja, ideja sfinge - bitje, ki ima žensko glavo in levje telo
-	
-	
-	
-Descartes se vpraša, od kod ima idejo popolnega, neskončnega Boga
-	Trdi:
-		 ideja neskončnega bitja ne more izvirati od njega, ker je sam končen in nepopoln;nekaj manj popolnega ne more povzročiti ideje nečesa popolnega.
-	zato sklepa, da mora obstajati resničen in popoln bog iz katerega izhaja ta ideja
-	III: Ključni korak: Če je Bog popoln, potem mora biti tudi: dobrohoten, resnicoljuben, ne vara svojih stvaritev. To pomeni, da hipoteza o zlobnem duhu, ki bi imel večjo moč kot Bog ne more biti resnična Če obstaja popoln in nevara­joč Bog, potem zlobni duh ne more imeti oblasti nad našim razmišljanjem.
+V prvi stopnji dvoma izpostavi, da so čuti lahko varljivi, saj obstajajo primeri, ko nas varajo, na primer sonce nam zgleda majhno zaradi razdalje, ampak je v resnici ogromno, ali pa to, da nam stolp od daleč lahko zgleda okrogel, v resnici pa je oglat. Zato pravi, da na čutih ne more temeljiti gotovih spoznanj, vendar hkrati poudari, da bi bilo napačno čute popolnoma zavreči, saj bi bili v tem primeru podobni norcem, ki mislijo, da imajo stekleno bučo namesto glave.
 
-Descartes se kot omenjeno v 3. meditaciji z vpeljavo in dokazom božjega obstoja želi rešiti solipsizma. Ugotovi, da ima Bog 2 glavni lastnosti in sicer, da je neskončen in popoln (to, da ima te lastnosti ni noben logičen sklep, ampak samo je). Obstajata dva dokaza za obstoj Boga in sicer kavzalni in ontološki dokaz.
-Ontološki dokaz o obstoju Boga pri Descartesu izhaja iz samega pojma Boga kot popolnega bitja: ker obstoj šteje med popolnosti, Bog ne more biti mišljen brez obstoja, zato mora nujno obstajati. 
-Za razumevanje kavzalnega dokaza moramo razumeti kaj sta objektivna in formalna realnost. Descartes razlikuje med formalno realnostjo, ki jo imajo stvari, ker dejansko obstajajo, in objektivno realnostjo, ki jo imajo ideje kot predstave teh stvari. Posledica ideje mira biti manjša ali enaka vzroku te ideje;  ker mora imeti ideja najmanj toliko formalne realnosti, kot ima objektivne, sklepa, da ideja Boga kot neskončnega in popolnega bitja ne more izvirati iz njega, kot končnega in nepopolnega človeka, temveč iz dejansko obstoječega Boga, saj ima ideja neskončnega in popolnega bitja več objektivne, kot ima Descartes formalne realnosti. Z drugimi besedami: jaz lahko nek predmet mislim največ toliko popolnega kot je zares v obstoju. Zato si jaz ne morem predstavljati boga kot neskončno in popolno substanco, če le ta ne bi zares obstajala.
-Z dokazom obstoja Boga Descartes ovrže 3. stopnjo dvoma z utemeljitvijo, da bi želja po varanju nasprotovala božji vsemogočnosti in popolnosti.
+V drugi stopnji dvoma, se Descartes sprašuje, kako razlikovati med sanjami in budnostjo. To stopnjo dvoma razreši z vpeljavo matematičnih resnic, saj pravi, da te veljajo tako v sanjah kot v budnosti. Trikotnik bo imel tri stranice in vsota njegovih notranjih kotov bo 180 stopinj ne glede na to, ali je buden ali sanja.
+
+V tretji stopnji dvoma uvede hipotezo zlobnega duha in se sprašuje, ali ga morda vara tudi pri stvareh, ki jih dojema kot resnične in gotove, na primer matematične resnice. Če ga zlobni duh vara, potem mora obstajati kot misleče bitje, saj je za varanje potreben nekdo, ki je varan. Tako pride do nedvoumne resnice cogito ergo sum, mislim torej sem. Ta resnica ne more biti napačna, ker je resnična že samo z dejanjem dvoma, kar predstavlja kartezijanski cogito. Ugotovi, da je cogito in s tem lastni obstoj edina stvar, v katero je lahko popolnoma prepričan, zaradi česar zapade v solipsizem. Kasneje v tretji meditaciji se reši solipsizma z vpeljavo Boga kot neskončnega in popolnega bitja ter ugotovi, da ga Bog o stvareh zunaj njegovega obstoja ne bi varal, saj bi to nasprotovalo božji popolnosti.
+
+##### Kriterij za resnico
+
+Iz cogita nato Descartes izpelje kriterij za resnico. Z analizo ugotovi, da je ideja cogita jasna, kar pomeni, da o njej ne more dvomiti, in razločna, kar pomeni, da je čista in ločena od drugih idej. Na podlagi tega se odloči, da so vse misli, ki so jasne in razločne, tudi resnične, cogito pa je tako prvo Descartesovo gotovo spoznanje in hkrati oblika samozavedanja. Ta kriterij kasneje (v III. meditaciji) utemelji z obstojem Boga, saj naj bi popoln Bog jamčil resničnost jasnih in razločnih idej.
 
 
+##### Izvor idej
+Kar zadeva izvor idej, Descartes pravi, da jih pridobimo iz treh virov, saj so lahko prirojene, pridobljene ali narejene. Prirojene ideje so tiste, ki jih že imamo v sebi, in predstavljajo enega glavnih razcepov med racionalizmom in empirizmom, ki zagovarja, da nimamo prirojenih idej in da se vsa spoznavna vsebina začne pri izkustvu. Descartes trdi, da so prirojene ideje jasne in razločne ter zato resnične, mednje pa vključuje idejo misleče in razsežne stvari, idejo Boga ter matematične in logične ideje. Empiristični kritiki ugovarjajo, da bi po tej logiki morali matematične resnice poznati že dojenčki, vendar Descartes ne trdi, da nam je prirojeno znanje samo, temveč zmožnost dojemanja teh idej. Pridobljene ideje so tiste, ki jih dobimo s čutnimi vtisi, narejene ideje pa so tiste, ki jih oblikujemo iz prirojenih in pridobljenih idej, na primer znanstvena odkritja ali ideja sfinge, bitja, ki ima žensko glavo in levje telo.
+
+##### Vpeljava in dokaz Boga ter razrešitev 3. stopnje dvoma
+
+Descartes se nato vpraša, od kod ima idejo popolnega in neskončnega Boga. Trdi, da ideja neskončnega bitja ne more izvirati iz njega samega, saj je končen in nepopoln, nekaj manj popolnega pa ne more povzročiti ideje nečesa popolnega. Zato sklepa, da mora obstajati resničen in popoln Bog, iz katerega ta ideja izhaja. Ključni korak v tem argumentu je, da če je Bog popoln, potem mora biti tudi dobrohoten, resnicoljuben in ne vara svojih stvaritev. To pomeni, da hipoteza o zlobnem duhu, ki bi imel večjo moč kot Bog, ne more biti resnična, saj če obstaja popoln in nevara­joč Bog, zlobni duh ne more imeti oblasti nad našim razmišljanjem.
+
+Descartes se torej v tretji meditaciji z dokazom božjega obstoja želi rešiti solipsizma. Ugotovi, da ima Bog dve glavni lastnosti, in sicer, da je neskončen in popoln, pri čemer to ni rezultat logičnega sklepanja, temveč del same ideje Boga. Obstajata dva dokaza za obstoj Boga, kavzalni in ontološki. Ontološki dokaz o obstoju Boga pri Descartesu izhaja iz samega pojma Boga kot popolnega bitja, saj ker obstoj šteje med popolnosti, Bog ne more biti mišljen brez obstoja in zato mora nujno obstajati.
+
+Za razumevanje kavzalnega dokaza je potrebno razumeti razliko med objektivno in formalno realnostjo. Descartes razlikuje med formalno realnostjo, ki jo imajo stvari, ker dejansko obstajajo, in objektivno realnostjo, ki jo imajo ideje kot predstave teh stvari. Posledica ideje mora biti manjša ali enaka njenemu vzroku, zato mora imeti ideja najmanj toliko formalne realnosti, kot ima objektivne. Na tej podlagi sklepa, da ideja Boga kot neskončnega in popolnega bitja ne more izvirati iz njega kot končnega in nepopolnega bitja, temveč iz dejansko obstoječega Boga, saj ima ideja neskončnega in popolnega bitja več objektivne realnosti, kot ima Descartes formalne realnosti. Z drugimi besedami, jaz lahko nek predmet mislim največ toliko popolnega, kot je zares v obstoju, zato si ne morem predstavljati Boga kot neskončno in popolno substanco, če ta ne bi zares obstajala.
+
+Z dokazom obstoja Boga Descartes ovrže tretjo stopnjo dvoma z utemeljitvijo, da bi želja po varanju nasprotovala božji vsemogočnosti in popolnosti.
+
+##### Substanca, atribut, modus
+
+Descartes razume realnost skozi tri pojme, ki so med seboj ontološko povezani.  To so substanca, atribut in modus. Substanca je tisto, kar obstaja kot nosilec lastnosti. Atribut je bistvena lastnost substance, brez katere substance sploh ne moremo razumeti. Modus pa je konkreten način, kako se ta atribut kaže. To pomeni, da modusi ne obstajajo sami zase, ampak so vedno načini neke substance, posredovani prek njenega atributa. Pri miselni substanci je atribut mišljenje, ideje pa so modusi mišljenja. Pri razsežni substanci je atribut razsežnost, modusi pa so na primer oblika, gibanje in položaj.
+
+Pomembno je tudi, da pri Descartesu ideje niso samostojne stvari ali substancialne entitete, ampak sodijo na najnižjo ontološko raven, saj so le modusi mišljenja. To pomeni, da ideja ni nekaj, kar obstaja samo zase, temveč je vedno način, kako misel deluje oziroma kako se nekaj pojavi v umu. S tem lahko jasno ločimo Descartesa od Platona, pri katerem imajo ideje povsem drugačen status.
+
+Ideja je pri Descartesu tisto, kar umu neposredno predstavlja nek predmet. Ideje torej delujejo reprezentacijsko, vendar niso nujno vizualne slike ali podobe. Descartes večkrat poudari, da so ideje samo kakor podobe stvari, ne pa nujno dejanske slike. To je pomembno, ker se pri njem ideja Boga, toplote ali bolečine ne razume kot vizualna slika, ampak kot miselna vsebina, ki je usmerjena na določen objekt.
+
+Kar se tiče razlikovanja med enostavnimi in sestavljenimi oblikami mišljenja, je koristno omeniti, da so ideje osnovni oziroma enostavni modusi mišljenja, medtem ko so dvom, sodba, hotenje, zanikanje in podobna dejanja kompleksnejši modusi mišljenja. Pri teh kompleksnejših oblikah mišljenja je ideja vedno že vključena kot njihov sestavni del. Če na primer nekaj potrjujem ali se česa bojim, mora biti v ozadju najprej neka ideja tega, kar potrjujem ali česar se bojim. 
+
+Formalna in objektivna realnost v kontekstu substance, atributa in modusa: formalna realnost pomeni, da neka stvar dejansko obstaja. Objektivna realnost pa pomeni, da ideja nekaj predstavlja. Posebnost idej je v tem, da imajo oboje: kot modusi mišljenja imajo formalno realnost, ker dejansko obstajajo v umu, hkrati pa imajo tudi objektivno realnost, ker predstavljajo neki objekt, kar je kot omenjeno vključeno v kavzalnem dokazu Boga. Descartes namreč pravi, da ideja kot ideja obstaja v njem kot modus mišljenja, vendar vprašanje ni samo, od kod ima ideja svoj obstoj, ampak predvsem od kod ima vsebino, ki jo predstavlja. Pri ideji Boga zato ne zadošča, da obstaja v njegovem umu; pojasniti mora še, od kod izvira njena objektivna realnost, torej od kod ideja neskončnega in popolnega bitja sploh dobi svojo vsebino.
 
 # John Locke
 Ideje v Lockovi filozofiji igrajo zelo pomembno vlogo. Locke trdi, da vse kar se dogaja ali obstaja v mislih je ali pa vključuje idejo in vse človeško znanje ze začne in gradi z idejami. Beseda "ideja" se v njegovem delu Esej o človeškem razumu pojavi pogosteje kot katerikoli drug samostalnik. 
@@ -189,3 +160,10 @@ Medtem ko Descartes predpostavlja, da ima realnost objektivno strukturo, ki jo u
 Locke pri spominu poudarja, da ideje niso trajno prisotne kot aktualne zaznave, temveč pomenijo zmožnost, da um pretekle zaznave ponovno oživi. Ker so ideje po njegovem aktualne zaznave v umu, shranjevanje v spomin pa pomeni predvsem to, da ima um moč, da jih znova prikliče in naredi aktualne. Pogosto so pri tem opremljene z dodatnim zaznavnim »pečatom«, da gre za nekaj že doživetega.
 
 Vendar razvoj idej, zlasti pri otroku, pokaže, da spomin ni zgolj skladišče podob, temveč tudi temelj za rabo splošnih idej, jezika in sklepanja. V tem smislu se Lockovo pojmovanje približa razumevanju idej kot dispozicij: imeti idejo pomeni biti zmožen, da jo prikličemo, uporabimo v primerjavah, abstrakcijah in sodbah.
+
+
+
+
+
+
+varja.gorogranc@gmail.com
