@@ -1,38 +1,9 @@
 ```toc
 ```
-Uvod o obeh
-Racionalizem VS. Empirizem
-Descartes:
-- stopnje dvoma
-	- zlobni duh
-- solipsizem (Bog - izhod iz solipsizma in krožni argument)
-- kriterij za resničnost
-- Prirojene Narejene in Pridobljene ideje
-	- prirojene - jasne in razločne
-	- narejene - sfinga
-	- pridobljene - ideje, ki jih pridobim s čuti - čutim sneg in zdaj mam idejo snega
-- substanca, atribut, modus (podobno kot lock z enostavnimi in sestavljenimi idejami)
-Locke
-- tabula rasa
-- ideje pridobivamo s čutnim izkustvom , ta izkustva imajo 2 vira; čutnost in refleksija
-- enostavne in sestavljene ideje - reference na Descartes substanca atribut modus
-- Načini šridobivanja znanja 
-- problem spoznanja nam nedosegljivih konceptov (bog, neskončnost..)
-- Načelo vzroka, metoda spoznavanja empirično opazovanje, indukcija
-
-- Primerjava Descartesa in Locka
-- tabula rasa VS prirojene ideje
-- enostavne, sestavljene ideje vs substanca atribut modus
-- lord help me za naprej
-
-**Vpliv naprej v FIL**
-Locke:
-- vpliv ker racionalizem, ki ga je Hume zradikaliziral toliko da je Kant imel občutek, da mora nekaj rečt na to, Kantova kritika Locka
-Descartes: En glavnih predstavnikov racionalizma, vpliv tudi na znanost semizdi, ludje imajo večjo željo priti do resnic
 
 
 # Uvod
-Rene Descartes in John Locke sta med najbolj znanimi filozofi zahodnega sveta s precej polarnimi pogledi na filozofijo. 
+René Descartes in John Locke sodita med najvplivnejše novoveške filozofe, njuni stališči pa predstavljata dva temeljno različna pristopa k vprašanju izvora idej in možnosti spoznanja.
 
 
 # Racionalizem in empirizem 
@@ -89,6 +60,8 @@ V tretji stopnji dvoma uvede hipotezo zlobnega duha in se sprašuje, ali ga mord
 ##### Kriterij za resnico
 
 Iz cogita nato Descartes izpelje kriterij za resnico. Z analizo ugotovi, da je ideja cogita jasna, kar pomeni, da o njej ne more dvomiti, in razločna, kar pomeni, da je čista in ločena od drugih idej. Na podlagi tega se odloči, da so vse misli, ki so jasne in razločne, tudi resnične, cogito pa je tako prvo Descartesovo gotovo spoznanje in hkrati oblika samozavedanja. Ta kriterij kasneje (v III. meditaciji) utemelji z obstojem Boga, saj naj bi popoln Bog jamčil resničnost jasnih in razločnih idej.
+
+Descartes tako svoje spoznanje utemeljuje na intuiciji in dedukciji: z intuicijo neposredno dojame resničnost cogita, z dedukcijo pa iz tega in drugih jasnih in razločnih idej izpeljuje nadaljnje resnice.
 
 
 ##### Izvor idej
@@ -161,9 +134,26 @@ Locke pri spominu poudarja, da ideje niso trajno prisotne kot aktualne zaznave, 
 
 Vendar razvoj idej, zlasti pri otroku, pokaže, da spomin ni zgolj skladišče podob, temveč tudi temelj za rabo splošnih idej, jezika in sklepanja. V tem smislu se Lockovo pojmovanje približa razumevanju idej kot dispozicij: imeti idejo pomeni biti zmožen, da jo prikličemo, uporabimo v primerjavah, abstrakcijah in sodbah.
 
+# Primerjava Descartesa in Locka  
 
+Najizrazitejše razlike med Descartesom in Lockom se pokažejo pri vprašanju izvora idej, vloge uma in možnosti gotovega spoznanja. Sicer so te razlike delno že omenjene v nalogi vendar so tu napisane strnjeno in jasno:
 
+**Prirojene ideje in tabula rasa:**  
+Descartes zagovarja obstoj prirojenih idej, ki so del naše racionalne narave in ne izvirajo iz izkušenj. Locke temu nasprotuje s teorijo, da se rodimo kot nepopisan list papirja (tabula rasa), po kateri je um ob rojstvu prazen, vse ideje pa pridobimo skozi izkustvo.
 
+**Izvor idej:**  
+Pri Descartesu so ideje lahko prirojene, pridobljene ali narejene, pri čemer imajo prirojene ideje največjo spoznavno vrednost. Locke trdi, da vse ideje izvirajo iz čutnosti in refleksije, zato izkušnja predstavlja edini vir vsebine našega mišljenja.
 
+**Vloga uma:**  
+Descartes razume um kot aktiven vir spoznanja, ki z intuicijo in dedukcijo odkriva resnice. Locke pa um najprej razume kot pasiven sprejemnik idej, ki jih nato aktivno obdeluje z operacijami, kot so združevanje, primerjanje in abstrakcija.
 
-varja.gorogranc@gmail.com
+**Status idej:**  
+Pri Descartesu so ideje modusi mišljenja, torej načini, kako se mišljenje udejanja. Pri Locku so ideje neposredni predmeti zaznave in mišljenja, s katerimi se um ukvarja pri vsakem spoznavnem aktu.
+
+**Substanca:**  
+Descartes substanco razume kot jasno določeno ontološko kategorijo z bistvenim atributom. Locke pa substanco razume kot problematično in sestavljeno idejo, ki jo oblikujemo kot nosilca lastnosti, ne da bi poznali njeno pravo bistvo.
+
+**Gotovost znanja:**  
+Descartes išče popolnoma gotova in nedvomna spoznanja, ki temeljijo na jasnih in razločnih idejah. Locke zavzema bolj zadržano stališče in poudarja analizo izvora ter meja znanja, pri čemer dopušča večjo stopnjo negotovosti.
+
+Locke in Descartes sta imela pomemben vpliv na njune naslednjike ne samo na področju filozofije, temveč tudi na drugih področjih. Descartes je polek tega, da je bil uveljavljen kot eden najpomembnejših racionalistov imel tudi velik vpliv na razvoj znanosti z racionalnim in logičnim pristopom k razumevanju narave.Locke pa je kot predstavnik empirizma vplival na kasnejše filozofe, zlasti na Davida Huma, ki je dodatno zradikaliziral Lockove ideje. Kasneje spor med racionalizmom in empirizmom, ki je postajal vse izrazitejši, sprožil razvoj Kantove filozofije, ki predstavlja poskus preseganja polarnosti med racionalizmom in empirizmom.

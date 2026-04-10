@@ -1,2 +1,7 @@
 - https://www.vmware.com/topics/server-virtualization
 - https://www.vmware.com/topics/virtual-machine
+- https://www.linuxfoundation.org/resources/publications
+- https://pve.proxmox.com/wiki/Main_Page
+- https://www.ibm.com/think/topics/virtualization
+- https://www.redhat.com/en/topics/virtualization
+- SILBERSHATZ, Abraham, BAER GALVIN, Peter, GAGNE, Greg. 2018. Operating system concepts / Abraham Silberschatz, Yale University, Peter Baer Galvin, Pluribus Networks, Greg Gagne, Westminster College. Hoboken, NJ : John Wiley & Sons. ISBN 9781119320913
