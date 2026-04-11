@@ -5,6 +5,7 @@
 # Uvod
 René Descartes in John Locke sodita med najvplivnejše novoveške filozofe, njuni stališči pa predstavljata dva temeljno različna pristopa k vprašanju izvora idej in možnosti spoznanja.
 
+'sqedadada'    
 
 # Racionalizem in empirizem 
 

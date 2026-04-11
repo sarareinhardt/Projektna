@@ -36,6 +36,66 @@ Poznamo 3 vrste virtualizacije:
 - Virtualizacija na ravni operacijskega sistema: Za razliko od popolne in para-virtualizacije virtualizacija na ravni operacijskega sistema ne uporablja hipervizorja. Namesto tega vse naloge hipervizorja opravlja virtualizacijska zmogljivost, ki je del operacijskega sistema fizičnega strežnika. Vendar morajo vsi virtualni strežniki pri tej metodi virtualizacije strežnikov uporabljati isti operacijski sistem.
 
 
+V naslednjem poglavju bom te koncepte uporabila pri postavitvi virtualnega strežnika v okolju Proxmox.
+
+##### Postavitev strežnika v Proxmoxu
+
+Najprej moram narediti virtualno napravo, ki bo gostovala mojo spletno aplikacijo. Za spletno aplikacijo potrebujem: spletni strežnik (*ang. web server*) - v našem primeru bo to Apache. Polek spletnega strežnika, pa potrebujem dodatne programske pakete, kot so podatkovna baza (PostgreSQL) in PHP.
+Strežnik bo poganjal operacijski sistem Ubuntu, ki nam zagotavlja osnovno okolje, znotraj katerega bomo namestili zgoraj naštete programe. Prav tako nam zagotavlja datotečni sistem, da lahko vse naše projektne datotečne vire ( `index.php`, `forum.php`, `header.php`, `css.css`, `js.js` in `posts.txt`) shranimo na strežniku. Hkrati nam že sam datotečni sistem zagotavlja SSH in FTPS dostop, ki omogočata varen dostop do ukazne vrstice in varen prenos (prek SSH protokola) na in iz strežnika. Za dostop do strežnika bomo morali kreirati 
+
+
+Proxmox je sistem, ki nam teče na večih fizičnih stežnikih in na vsakem lahko teče več VM. Mi bomo naredili complete virtualization z Ubuntujem
+
+Najprej na proxmoxu pogledamo kj e
+
+Z gumbom Create VM sprožimo postopek ustvarjanja naše virtualne naprave.Moramo ugotoviti katero številko virtualne naprave bomo izbrali (v našem primeru 601)  in jo poimenovali SaraUB-projektna. Resource pool je oznaka s katero lahko označimo kdo je odgovoren za določeno virtualno napravo. Tej oznaki se lahko tudi določi pravice dostopa. Kasneje, ko bom končala postavitev bom odkljukala tudi, da se virtualna naprava samodejno zažene (Start at boot) ob morebitnem ponovnem zagonu hypervisorja
+![[Pasted image 20260411221253.png]]
+
+
+
+V naslednjem oknu moramo izbrati kateri OS bomo inštalirali na našo napravo. Standardna namestitev se na Proxmoxu naredi iz ISO datoteke, ki predstavlja inštalacijski virtualni CD operacijskega sistema. Ta CD izberemo kot virtualni CD tako, da na vstreznem datotečnem sistemu izberemo ISO datoteko, v kateri je zapisana vsebina tega CD-ja. Ker hočemo namestiti na našo virtualno napravo operacijski sistem Ubuntu, bomo za inštalacijo izbrali najnovejšo verzijo Ubuntu inštalacijskega diska (Ubuntu-24.04.3-live-server-amd64.
+![[Pasted image 20260411221336.png]]
+
+
+Po tem bom določila sistemske parametre, in sicer: kakšno grafično kartico in kakšne gonilnike za razne parametre bomo uporabili. V tem primeru bomo omogočili uporabo Quemu agenta, ki omogoča lažje upravljanje virtualnih naprav s strani operaterja Hiperviserja in sporoča dodatne informacije kot so IP naslovi ipd.
+![[Pasted image 20260411221604.png]]
+
+
+V naslednjem koraku izberem parametre virtualiziranega diska. Pri tem moramo predvsem določiti kje se bo nahajal, velikost in nekaj dodatnih parametrov (npr. ali delamo avtomatske varnostne kopije vsebine diska, itd - glej sliko). 
+![[Pasted image 20260411221751.png]]
+
+
+Zaradi varnosti bom na naši virtualni napravi naredila 2 diska. Eden bo sistemski, kjer bo nameščen operacijski sistem in bo tekel na flash disku (SCSI0). Ta obsega samo 32GB, kar je ravno toliko kolikor potrebujemo za namestitev operacijskega sistema. Za namestitev aplikacije in uporabniških podatkov pa kreiramo dodatni disk (SCSI1), ki ga kreiramo na počasnejšem, a bistveno večjem skladiščnem sistemu (ang.*Storage*) imenovanem SharedCeph2. Pri izboru diska sem hkrati omogočila, da uporabimo Write Back Cache, ki pohitri delovanje diska (predvsem pri pisanju.)
+![[Pasted image 20260411222545.png]]
+
+V naslednjem koraku izberem koliko procesorskih virov dodelimo naši virtualni napravi. V našem primeru bomo dodelili 2 procesorja in 2 jedri (*ang. core*) v vsakem procesorju, tako da imamo skupaj 4 jedra.
+![[Pasted image 20260411222800.png]]
+
+Po tem izberem količino pomnilnika. Spomin izberemo tako, da se naprava lahko dinamično povečuje do 8192MB. V našem primeru izberemo minimalno 2MB. V ta namen se uporablja Balooning gonilnik (*ang.driver*). Tako lahko bolj učinkovito izkoriščamo fizičen pomnilnik, ki si ga deli večje št. virtualnih naprav.
+![[Pasted image 20260411223204.png]]
+
+V naslednjem koraku konfiguriram mrežne vmesnike. Ker gre za svežo inštalacijo operacijskega sistema izberemo kot model mrežne naprave VirtIO, ker na virtualni napravi deluje bolj optimalno kot simulacija fizičnih mrežnih gonilnikov, ki bi jih sicer tudi lahko izbrali, vendar se to navadno uporablja samo v primerih, ko se na virtualni strežnik prenaša napravo, ki je prej že uporabljala fizični mrežni gonilnik. Ob izboru mrežne naprave moramo tudi rezervirati IP naslove, ki jih bomo uporabljali na tem strežniku in hkrati določiti v katerih virtualnih WLAN omrežjih se ti IP-naslovi nahajajo. Če te nastavitve niso izbrane pravilno naš strežnik ne bo imel dostopa do interneta ali do drugih virov v omrežju, več o tem pa bom napisala kasneje. Za izbor IP naslova pogledamo kje imamo prost IP naslov in vidimo v kateremu IP naslovu se nahaja
+![[Pasted image 20260411225251.png]]
+![[Pasted image 20260411225840.png]]
+Za to, da vem kateri VLAN vpisati v nastavitve naše virtualne naprave moram pred tem določiti IP naslov, ki ga bo uporabljala virtualna naprava, kar naredim v zgoraj prikazanem orodju IPAM. Ko je to narejeno v prvi od dveh slik vidim, da je VLAN ID v našem primeru 1012, tega pa vpišem v nastavitve mrežne naprave in s tem zaključim nastavitve mrežnih parametrov.
+![[Pasted image 20260411225957.png]]
+
+V naslednjem koraku preverim pravilnost vseh nastavitev, ki sem jih naredila. in s klikom na gumb Finish dejansko ustvarim virtualno napravo.
+![[Pasted image 20260411230210.png]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -44,11 +104,11 @@ Poznamo 3 vrste virtualizacije:
 
 ##### 1. Zagon aplikacije na virtualnem stroju
 
-Aplikacija teče na virtualnem stroju v okolju Proxmox, kjer je nameščen spletni strežnik (npr. Apache) in PHP. Vsi projektni datotečni viri ( `index.php`, `forum.php`, `header.php`, `css.css`, `js.js` in `posts.txt`) se nahajajo na strežniku.
+Aplikacija teče na virtualnem strežniku v okolju Proxmox, kjer je nameščen spletni strežnik ( Apache) in PHP. Vsi projektni datotečni viri ( `index.php`, `forum.php`, `header.php`, `css.css`, `js.js` in `posts.txt`) se nahajajo na strežniku.
 
 Ko uporabnik v brskalniku odpre spletno stran, se na strežnik pošlje HTTP zahteva. Strežnik nato obdela PHP kodo in vrne generirano HTML stran uporabniku.
 
----
+
 
 ##### 2. Vstopna stran (index.php)
 
@@ -299,3 +359,7 @@ To predstavlja osnovno delovanje spletne aplikacije, saj strežnik dinamično ob
 
 1.7 - v ucbeniku je virtualization
 18 je pa hypervisorji pa to
+
+##### Predlogi za izboljšave
+
+Najbolj pomembne izboljšave so seveda te, ki izboljšujejo varnost naše apluikacije. Med njimi najpomembnejša je uporaba HTTPS protokola za dostop do spletne aplikacije, ki zagotavlja SSL enkripcijo, varen dostop do spletne aplikacije, ki onemogoča nezaželenim ljudem prisluškovanje, predvsem pa avtentikacijo spletnega mesta, ki oteži izvedbo morebitnih phishing napadov, kjer bi lahko nekdo oponašal našo aplikacijo s slabim namenom.
