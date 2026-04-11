@@ -72,15 +72,24 @@ V naslednjem koraku izberem koliko procesorskih virov dodelimo naši virtualni n
 Po tem izberem količino pomnilnika. Spomin izberemo tako, da se naprava lahko dinamično povečuje do 8192MB. V našem primeru izberemo minimalno 2MB. V ta namen se uporablja Balooning gonilnik (*ang.driver*). Tako lahko bolj učinkovito izkoriščamo fizičen pomnilnik, ki si ga deli večje št. virtualnih naprav.
 ![[Pasted image 20260411231757.png]]
 
-V naslednjem koraku konfiguriram mrežne vmesnike. Ker gre za svežo inštalacijo operacijskega sistema izberemo kot model mrežne naprave VirtIO, ker na virtualni napravi deluje bolj optimalno kot simulacija fizičnih mrežnih gonilnikov, ki bi jih sicer tudi lahko izbrali, vendar se to navadno uporablja samo v primerih, ko se na virtualni strežnik prenaša napravo, ki je prej že uporabljala fizični mrežni gonilnik. Ob izboru mrežne naprave moramo tudi rezervirati IP naslove, ki jih bomo uporabljali na tem strežniku in hkrati določiti v katerih virtualnih WLAN omrežjih se ti IP-naslovi nahajajo. Če te nastavitve niso izbrane pravilno naš strežnik ne bo imel dostopa do interneta ali do drugih virov v omrežju, več o tem pa bom napisala kasneje. Za izbor IP naslova pogledamo kje imamo prost IP naslov in vidimo v kateremu IP naslovu se nahaja
+V naslednjem koraku konfiguriram mrežne vmesnike. Ker gre za svežo inštalacijo operacijskega sistema izberemo kot model mrežne naprave VirtIO, ker na virtualni napravi deluje bolj optimalno kot simulacija fizičnih mrežnih gonilnikov, ki bi jih sicer tudi lahko izbrala, vendar se to navadno uporablja samo v primerih, ko se na virtualni strežnik prenaša napravo, ki je prej že uporabljala fizični mrežni gonilnik. Ob izboru mrežne naprave moram tudi rezervirati IP naslove, ki jih bom uporabljala na tem strežniku in hkrati določiti v katerih virtualnih WLAN omrežjih se ti IP-naslovi nahajajo. Če te nastavitve niso izbrane pravilno strežnik ne bo imel dostopa do interneta ali drugih virov v omrežju, več o tem pa bom napisala kasneje. Za izbor IP naslova pogledam kje imamo prost IP naslov in vidimo v kateremu IP naslovu se nahaja
 ![[Pasted image 20260411225251.png]]
 ![[Pasted image 20260411225840.png]]
-Za to, da vem kateri VLAN vpisati v nastavitve naše virtualne naprave moram pred tem določiti IP naslov, ki ga bo uporabljala virtualna naprava, kar naredim v zgoraj prikazanem orodju IPAM. Ko je to narejeno v prvi od dveh slik vidim, da je VLAN ID v našem primeru 1012, tega pa vpišem v nastavitve mrežne naprave in s tem zaključim nastavitve mrežnih parametrov.
+Za to, da vem kateri VLAN vpisati v nastavitve naše virtualne naprave, moram pred tem določiti IP naslov, ki ga bo uporabljala virtualna naprava, kar naredim v zgoraj prikazanem orodju IPAM. Ko je to narejeno, v prvi od dveh slik vidim, da je VLAN ID v našem primeru 1012, tega pa vpišem v nastavitve mrežne naprave in s tem zaključim nastavitve mrežnih parametrov.
 ![[Pasted image 20260411225957.png]]
 
 V naslednjem koraku preverim pravilnost vseh nastavitev, ki sem jih naredila. in s klikom na gumb Finish dejansko ustvarim virtualno napravo.
 ![[Pasted image 20260411230210.png]]
 
+Po zagonu virtualne naprave začnem z namestitvijo operacijskega sistema. Ko se operacijski sistem namesti zažene aplikacijo za konfiguracijo parametrov operacijskega sistema. Znotraj te aplilacije izberem večino privzetih parametrov, razen da naslov mrežnega vmesnika nastavim na statični IPv4 naslov, ki je bil prej nastavljen (namesto privzetega DHCP)
+![[Pasted image 20260412001201.png]]
+
+Po tem pa nadaljujem s privzetimi nastavitvami, dokler ne pridem do izbora diska kamor namestim operacijski sistem.Pri tem izberm manjši hiter disk za operacijski sistem, večji počasnejši disk pa bo formatiran kot podatkovni disk. Vse izbrane nastavitve so prikazane v naslednji sliki. Ko izberemo "done" se prične dejanska konfiguracija operacijskega sistema.
+![[Pasted image 20260412001638.png]]
+
+Kasneje opišem osnovne podatke o uporabniku, kot so ime uporabnika, uporabniško ime in geslo in ime uporabnika in nadaljujemo s privzetimi parametri do SSH konfiguracije, kjer omogočimo namestitev SSH strežnika.
+![[Pasted image 20260412002331.png]]
+![[Pasted image 20260412002513.png]]
 
 
 
@@ -361,3 +370,5 @@ To predstavlja osnovno delovanje spletne aplikacije, saj strežnik dinamično ob
 ##### Predlogi za izboljšave
 
 Najbolj pomembne izboljšave so seveda te, ki izboljšujejo varnost naše apluikacije. Med njimi najpomembnejša je uporaba HTTPS protokola za dostop do spletne aplikacije, ki zagotavlja SSL enkripcijo, varen dostop do spletne aplikacije, ki onemogoča nezaželenim ljudem prisluškovanje, predvsem pa avtentikacijo spletnega mesta, ki oteži izvedbo morebitnih phishing napadov, kjer bi lahko nekdo oponašal našo aplikacijo s slabim namenom.
+
+KarKol!7189
