@@ -91,7 +91,56 @@ Kasneje opišem osnovne podatke o uporabniku, kot so ime uporabnika, uporabnišk
 ![[Pasted image 20260412002331.png]]
 ![[Pasted image 20260412002513.png]]
 
+po končani konfiguraciji se bo virualna naprava poskušala zagnati. Pri tem se zažene iz naprave, ki je nastavljena kot zagonska naprava (*ang boot device*) vrstni red teh naprav je odvisen od vrstnega reda ki sem ga definirala v nastavitvah, zato se moram pred dejanskim zagonom prepričati, da je kot zagonska naprava izbran tisti disk na katerega smo namestili operacijski sistem. V našem primeru je to SCSI1 in tega nastavim kot primarno zagonsko napravo. Ko je to opravljeno, lahko ponovno poskusimo zagnati.
+![[Pasted image 20260412004056.png]]
 
+Ko je to opravljeno, lahko ponovno poskusimo zagnati. Vidimo, da je delovalo in tako smo se uspeli prijaviti na naš sveže zagnan virtualni strežnik. 
+![[Pasted image 20260412005024.png]]
+
+Ker je prijava z geslom manj varna, bo prvi naslednji korak ustvaritev para SSH ključev (javnega in privatnega) in vgradnja mojega javnega SSH ključa na strežnik. 
+Za kreiranje privatnega in javnega SSH ključa uporabimo program PuTTYgen 
+![[Pasted image 20260412005306.png]]
+Ko zgenerira ključa oba shranim.
+Zaradi varnosti datoteko s privatnim ključem shranimo z geslom. Tako bomo vsakič, ko je potrebno uporabiti privatni ključ potrebni vpisati tudi geslo. Na tak način se zaščitimo pred tem, da bi nekdo samo skopiral našo datoteko s ključem in dostopal do vseh računalnikov, kjer imam omogočen dostop z mojim SSH ključem.
+##### Dostop do strežnika s SSH ključem
+Ob namestitvi strežnika smo namestili open SSH prgramski paket, ki omogoča dostop do ukazne vrstice prek enkriptiranega SSH protokola. Dostop je mogoč z uporabo uporabniškega imena in gesla ali z uporabo SSH ključa, kar je bolj varen način. Zato, da bi lahko uporabljali SSH ključ, moramo prvo generirati par ključev, kar bilo opisano v prejšnjem koraku. Zdaj imamo datoteko s privatnim ključem in datoteko z javnim ključem v UNIX formatu.
+Zato, da se lahko prijavim na strežnik s SSH ključem je potrebno na tem strežniku v domačem direktoriju uporabnika s katerim se želimo prijaviti ustvariti prvo .ssh/authorized_keys če te še ni ustvarjena in tej datoteki na koncu dodamo naš javni SSH ključ. 
+Primer javnega SSH ključa v UNIX formatu, ki je primeren za dodajanje v datoteko authorized_keys. 
+``` bash
+echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCD7SWKlGWcDMHtYNt195Each9DJEsomryBzjx6ZH/qvIogJw2I5p++x7lAiNdHGYdGQhR67gEewxpwhJfH6+pCuc7BAy56K+smfwVJvW/nOaxIzkTgydtKODIrs0/UdiRFaVB3Nk1msZGiAqvRn/xMtLFUzdNTLXa4uzQ82JmJY/yu1JjOKLxAM8EAmllgSSkuX7BM2+3BPUCqQqSwxLwHEhnejWbGDVyTDrRXa0cNNwIT4v4ivxiE11JmsNOXXMEn0iJAplbTS+4JqLZhfWykuid2SdcLQqZyLtV1PQ6YzYfAmFROpnlLvKRz73jssdu+W/P6mmmV5xlzi2/gEBIl rsa-key-20260412 >> .ssh/authorized_keys
+```
+Če ta ukaz izvedemo v domačem direktoriju uporabnika lahko enostavno dodamo ta ključ v ustrezno datoteko, ki omogoča dostop na strežnik s tem uporabniškim imenom in SSH ključem brez uporabe gesla.
+Na tak načn - z uporabo SSH ključa - lahko tudi relativno varno dostopamo do root računa na liux strežnikih. Tudi v tem primeru v /root/.ssh/authorized_keys dodamo naš javni SSH ključ in se lahko prijavimo na strežnik kot root uporabnik.
+
+
+##### Dostop do strežnika s SSH ključem iz Windows računalnika
+
+Enako kot za dostop z uporabniškim imenom in geslom za sam dostop tudi v tem primeru uporabljam program Putty. V primeru, ko želimo dostopati s SSH ključem uporabimo program Pagent v katerega dodamo naš privatni SSH ključ in šele po tem poženemo program Putty, ki dostopa do strežnika z imenom uporabnika kamor smo skopirali naš javni ključ kot je opisano zgoraj. Ko bo Putty odprl sejo do strežnika ne bo potrebno vpisati gesla, temveč se bo prijava zgodila s SSH ključem. (Authenticating with public key "rsa-key-20260412" from agent)
+![[Pasted image 20260412182856.png]]
+Poleg tega, da je to bolj enostavno je tudi bolj varno. 
+Na tem mestu, ker vemo, da se lahko s SSH ključem prijavimo na računalnik bi lahko tudi preprečili možnost prijave z geslom, kar doatno poveča varnost. To lahko naredimo s spremembo sistemske ssh_config datoteke, kjer odkomentiramo vrstico PasswordAuthentication kjer piše 'yes' in jo spremenimo na 'no'.
+
+Pred nadaljevanjem se prepričamo, da: 
+- imamo dostop do interneta
+![[Pasted image 20260412185453.png]]
+vidimo, da URL pretvori v IP naslov (kar pomeni, da DNS mehanizem dela)
+- naredimo nadgradnjo operacijskega sistema na najnovejšo verzijo, kar naredimo na naslednji način: 
+```bash
+sudo apt get update
+sudo apt get upgrade
+```
+po tem pa namestimo še ostalo aplikativno programsko opremo
+##### Namestitev aplikativne programske opreme
+
+Prvo zagotovimo, da se bo naš željeni URL app.xenya.net pretvoril v naslov našega spletnega strežnika, kar nastavim na DNS strežniku prek spletnega vmesnika PowerDNS-Admin
+![[Pasted image 20260412194359.png]]
+Za to, da bi lahko postavili spletni strežnik moramo namestiti naslednjo programsko opremo:  Apache spletni strežnik, PHP in podatkovno bazo z ukazoma
+```bash
+sudo apt install apache2
+sudo apt install php
+```
+
+##### 
 
 
 
