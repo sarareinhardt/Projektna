@@ -130,19 +130,145 @@ sudo apt get update
 sudo apt get upgrade
 ```
 po tem pa namestimo še ostalo aplikativno programsko opremo
-##### Namestitev aplikativne programske opreme
+##### Priprava okolja za varno spletno mesto
 
 Prvo zagotovimo, da se bo naš željeni URL app.xenya.net pretvoril v naslov našega spletnega strežnika, kar nastavim na DNS strežniku prek spletnega vmesnika PowerDNS-Admin
 ![[Pasted image 20260412194359.png]]
-Za to, da bi lahko postavili spletni strežnik moramo namestiti naslednjo programsko opremo:  Apache spletni strežnik, PHP in podatkovno bazo z ukazoma
+Za tem preverimo, da se ime res pretvori v IP naslov našega strežnika
+![[Pasted image 20260412194533.png]]
+
+
+Za to, da bi lahko postavili spletni strežnik moramo namestiti naslednjo programsko opremo, kar zajema spletni strežnik Apache in podporo za PHP:
+- **apache2** → spletni strežnik (prikaže tvojo spletno stran uporabnikom)
+- **php** → osnovni PHP interpreter (omogoča izvajanje PHP kode)
+- **php-cli** → PHP za ukazno vrstico (uporabljaš v terminalu, npr. skripte)
+- **libapache2-mod-php** → poveže PHP z Apache (da Apache lahko poganja PHP datoteke)
+- **php-mysql** → omogoča povezavo PHP aplikacije z MySQL bazo
+To naredimo z naslednjim ukazom:
 ```bash
-sudo apt install apache2
-sudo apt install php
+sudo apt install apache2 php php-cli libapache2-mod-php php-mysql
+```
+Apache sprejema HTTP zahteve, PHP pa omogoča izvajanje dinamične kode.
+
+Zagon storitve:
+```bash
+sudo systemctl enable apache2
+sudo systemctl start apache2
 ```
 
-##### 
+Aplikacijo sem nato kopirala v mapo:
 
+```bash
+/var/www/app
+```
 
+```bash
+sudo mkdir -p /var/www/app
+sudo cp -r your-app/* /var/www/app/
+```
+
+Nastavila sem lastništvo in pravice:
+
+```bash
+sudo chown -R www-data:www-data /var/www/app
+sudo chmod -R 755 /var/www/app
+```
+
+S tem omogočim Apache strežniku dostop do datotek.
+
+Ustvarila sem konfiguracijsko datoteko za domeno app.xenya.net na spletnem strežniku. Ta konfiguracija omogoča spletnemu strežniku, da dodeli pravo spletno mesto takrat, ko dobi URL app.xenya.net poslan na naslov strežnika.
+
+```bash
+sudo nano /etc/apache2/sites-available/app.xenya.net.conf
+```
+
+```apache
+<VirtualHost *:80>
+    ServerName app.xenya.net
+    DocumentRoot /var/www/app
+
+    <Directory /var/www/app>
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
+```
+
+S tem določim, katera mapa se uporabi za določeno domeno.
+
+---
+
+ Aktivacija konfiguracije
+```bash
+sudo a2ensite app.xenya.net.conf
+sudo a2enmod rewrite
+sudo systemctl reload apache2
+```
+
+Omogočila sem svojo stran in podporo za URL prepisovanje.
+
+---
+
+## 🔥 Požarni zid (UFW)
+
+```bash
+sudo ufw allow 80
+sudo ufw allow 443
+sudo ufw enable
+```
+
+Odprla sem porta za:
+
+- HTTP (80)
+    
+- HTTPS (443)
+    
+
+S tem omogočim dostop do strežnika iz interneta.
+
+---
+
+## 🔒 HTTPS (SSL certifikat)
+
+Namestila sem Certbot:
+
+```bash
+sudo apt install certbot python3-certbot-apache
+```
+
+Ustvarila certifikat:
+
+```bash
+sudo certbot --apache -d app.xenya.net
+```
+
+S tem omogočim varno HTTPS povezavo.
+
+---
+
+## 📂 Nastavitev pravic za zapisovanje
+
+Ker aplikacija zapisuje podatke (npr. posts.txt), sem nastavila:
+
+```bash
+sudo chown -R www-data:www-data /var/www/app/data
+sudo chmod 775 /var/www/app/data
+sudo chmod 664 /var/www/app/data/posts.txt
+```
+
+S tem:
+
+- Apache lahko zapisuje podatke
+    
+- drugi uporabniki nimajo dostopa za pisanje
+    
+- izboljšana varnost (namesto 777)
+    
+
+```
+
+Če hočeš, ti lahko še dodam **eno bolj “šolsko” razlago (malo bolj formalno)** ali pa **diagram**, da dobiš več točk 👍
+```
 
 
 
@@ -421,3 +547,6 @@ To predstavlja osnovno delovanje spletne aplikacije, saj strežnik dinamično ob
 Najbolj pomembne izboljšave so seveda te, ki izboljšujejo varnost naše apluikacije. Med njimi najpomembnejša je uporaba HTTPS protokola za dostop do spletne aplikacije, ki zagotavlja SSL enkripcijo, varen dostop do spletne aplikacije, ki onemogoča nezaželenim ljudem prisluškovanje, predvsem pa avtentikacijo spletnega mesta, ki oteži izvedbo morebitnih phishing napadov, kjer bi lahko nekdo oponašal našo aplikacijo s slabim namenom.
 
 KarKol!7189
+
+
+
