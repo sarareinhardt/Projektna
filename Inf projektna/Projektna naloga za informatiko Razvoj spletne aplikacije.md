@@ -130,7 +130,7 @@ sudo apt get update
 sudo apt get upgrade
 ```
 po tem pa namestimo še ostalo aplikativno programsko opremo
-##### Priprava okolja za varno spletno mesto
+##### Nastavitev strežniškega okolja in spletne aplikacije
 
 Prvo zagotovimo, da se bo naš željeni URL app.xenya.net pretvoril v naslov našega spletnega strežnika, kar nastavim na DNS strežniku prek spletnega vmesnika PowerDNS-Admin
 ![[Pasted image 20260412194359.png]]
@@ -148,129 +148,25 @@ To naredimo z naslednjim ukazom:
 ```bash
 sudo apt install apache2 php php-cli libapache2-mod-php php-mysql
 ```
-Apache sprejema HTTP zahteve, PHP pa omogoča izvajanje dinamične kode.
-
-Zagon storitve:
-```bash
-sudo systemctl enable apache2
-sudo systemctl start apache2
-```
-
-Aplikacijo sem nato kopirala v mapo:
-
-```bash
-/var/www/app
-```
-
-```bash
-sudo mkdir -p /var/www/app
-sudo cp -r your-app/* /var/www/app/
-```
-
-Nastavila sem lastništvo in pravice:
-
-```bash
-sudo chown -R www-data:www-data /var/www/app
-sudo chmod -R 755 /var/www/app
-```
-
-S tem omogočim Apache strežniku dostop do datotek.
-
-Ustvarila sem konfiguracijsko datoteko za domeno app.xenya.net na spletnem strežniku. Ta konfiguracija omogoča spletnemu strežniku, da dodeli pravo spletno mesto takrat, ko dobi URL app.xenya.net poslan na naslov strežnika.
-
-```bash
-sudo nano /etc/apache2/sites-available/app.xenya.net.conf
-```
-
-```apache
-<VirtualHost *:80>
-    ServerName app.xenya.net
-    DocumentRoot /var/www/app
-
-    <Directory /var/www/app>
-        AllowOverride All
-        Require all granted
-    </Directory>
-</VirtualHost>
-```
-
-S tem določim, katera mapa se uporabi za določeno domeno.
-
----
-
- Aktivacija konfiguracije
-```bash
-sudo a2ensite app.xenya.net.conf
-sudo a2enmod rewrite
-sudo systemctl reload apache2
-```
-
-Omogočila sem svojo stran in podporo za URL prepisovanje.
-
----
-
-## 🔥 Požarni zid (UFW)
-
-```bash
-sudo ufw allow 80
-sudo ufw allow 443
-sudo ufw enable
-```
-
-Odprla sem porta za:
-
-- HTTP (80)
-    
-- HTTPS (443)
-    
-
-S tem omogočim dostop do strežnika iz interneta.
-
----
-
-## 🔒 HTTPS (SSL certifikat)
-
-Namestila sem Certbot:
-
-```bash
-sudo apt install certbot python3-certbot-apache
-```
-
-Ustvarila certifikat:
-
-```bash
-sudo certbot --apache -d app.xenya.net
-```
-
-S tem omogočim varno HTTPS povezavo.
-
----
-
-## 📂 Nastavitev pravic za zapisovanje
-
-Ker aplikacija zapisuje podatke (npr. posts.txt), sem nastavila:
-
-```bash
-sudo chown -R www-data:www-data /var/www/app/data
-sudo chmod 775 /var/www/app/data
-sudo chmod 664 /var/www/app/data/posts.txt
-```
-
-S tem:
-
-- Apache lahko zapisuje podatke
-    
-- drugi uporabniki nimajo dostopa za pisanje
-    
-- izboljšana varnost (namesto 777)
-    
-
-```
-
-Če hočeš, ti lahko še dodam **eno bolj “šolsko” razlago (malo bolj formalno)** ali pa **diagram**, da dobiš več točk 👍
-```
 
 
+Pri vzpostavitvi spletne aplikacije sem najprej nastavila DNS zapis tipa A, s katerim sem domeno `app.xenya.net` povezala z javnim IP naslovom strežnika `31.7.206.105`. DNS (Domain Name System) omogoča pretvorbo domen v IP naslove, kar uporabnikom omogoča dostop do strežnika preko razumljivega imena. Delovanje sem preverila z ukazom `ping app.xenya.net`, ki preveri, ali se domena pravilno prevede v IP naslov.
+
+Nato sem na strežnik namestila spletni strežnik Apache in programski jezik PHP z ukazom `sudo apt install apache2 php php-cli libapache2-mod-php php-mysql`, ki namesti potrebne komponente. Apache sprejema HTTP zahteve in vrača spletne strani, PHP pa omogoča izvajanje dinamične logike. Modul `libapache2-mod-php` omogoča Apache strežniku izvajanje PHP kode, medtem ko `php-mysql` omogoča povezavo z bazo podatkov. Strežnik sem zagnala z ukazom `sudo systemctl start apache2` in omogočila samodejni zagon z `sudo systemctl enable apache2`, kjer `systemctl` upravlja sistemske storitve.
+
+Spletno aplikacijo sem prenesla v mapo `/var/www/app`, ki jo Apache uporablja kot vir datotek. Mapo sem ustvarila z ukazom `sudo mkdir -p /var/www/app`, kjer `mkdir` ustvari mapo, parameter `-p` pa omogoča ustvarjanje celotne poti. Datoteke sem kopirala z ukazom `sudo cp -r your-app/* /var/www/app/`, kjer `cp` kopira datoteke, `-r` pa omogoča rekurzivno kopiranje map.
+
+Za pravilno delovanje sem nastavila lastništvo in pravice z ukazoma `sudo chown -R www-data:www-data /var/www/app` in `sudo chmod -R 755 /var/www/app`. Ukaz `chown` spremeni lastnika datotek na uporabnika `www-data`, pod katerim teče Apache, parameter `-R` pa pomeni, da se sprememba izvede rekurzivno. Ukaz `chmod` nastavi dovoljenja, kjer 755 pomeni, da ima lastnik pravice za branje, pisanje in izvajanje, ostali pa samo za branje in izvajanje.
+
+Za povezavo domene s aplikacijo sem ustvarila konfiguracijo virtualnega gostitelja z ukazom `sudo nano /etc/apache2/sites-available/app.xenya.net.conf`. V tej datoteki sem določila `ServerName`, ki predstavlja domeno, in `DocumentRoot`, ki določa mapo z datotekami. Direktiva `AllowOverride All` omogoča uporabo `.htaccess` datotek za dodatno konfiguracijo, medtem ko `Require all granted` omogoča dostop vsem uporabnikom. Virtualni gostitelji omogočajo, da en strežnik gosti več različnih spletnih strani.
+
+Konfiguracijo sem aktivirala z ukazom `sudo a2ensite app.xenya.net.conf`, kjer `a2ensite` omogoči izbrano stran, ter omogočila modul za prepisovanje URL naslovov z `sudo a2enmod rewrite`. Spremembe sem uveljavila z `sudo systemctl reload apache2`, ki ponovno naloži konfiguracijo brez popolnega ponovnega zagona strežnika.
+
+Za omogočanje dostopa iz interneta sem nastavila požarni zid z ukazi `sudo ufw allow 80` in `sudo ufw allow 443`, kjer `ufw` (Uncomplicated Firewall) upravlja pravila požarnega zidu, ukaz `allow` pa odpre določena vrata. Vrata 80 se uporabljajo za HTTP promet, vrata 443 pa za HTTPS. Požarni zid sem aktivirala z `sudo ufw enable`.
+
+Za varno komunikacijo sem namestila orodje Certbot z ukazom `sudo apt install certbot python3-certbot-apache` in pridobila SSL certifikat z `sudo certbot --apache -d app.xenya.net`. Certbot avtomatsko pridobi certifikat od organizacije Let's Encrypt in ga namesti v Apache konfiguracijo, kar omogoča uporabo HTTPS protokola za šifrirano komunikacijo.
+
+Ker aplikacija zapisuje podatke v datoteko (npr. `posts.txt`), sem posebej nastavila pravice za mapo `/var/www/app/data` z ukazi `sudo chown -R www-data:www-data /var/www/app/data`, `sudo chmod 775 /var/www/app/data` in `sudo chmod 664 /var/www/app/data/posts.txt`. Dovoljenje 775 pomeni, da ima lastnik in skupina pravice za branje, pisanje in izvajanje, ostali pa samo za branje in izvajanje, medtem ko 664 za datoteko omogoča branje in pisanje lastniku in skupini ter samo branje ostalim. S tem omogočim strežniku zapisovanje podatkov, hkrati pa omejim dostop drugim uporabnikom, kar izboljša varnost.
 
 
 
